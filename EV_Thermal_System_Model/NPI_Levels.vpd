@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<vpd:VpdRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vpd="http://www.thalesgroup.com/vpd" id="_Bn4gQPUHEe-t-deGxGcRqA" name="NPI_Levels" version="1.0.0">
+  <enumerations id="_bTZn0N5AEe-lVKxp0ELu9Q" name="Comp_Levels">
+    <literals id="_oeQiwN5EEe-lVKxp0ELu9Q" name="L">
+      <color red="255" green="0" blue="0"/>
+    </literals>
+    <literals id="_pqdM8N5AEe-lVKxp0ELu9Q" name="L1">
+      <color red="0" green="176" blue="248"/>
+    </literals>
+    <literals id="_uDnlkN5AEe-lVKxp0ELu9Q" name="L2">
+      <color red="239" green="255" blue="95"/>
+    </literals>
+    <literals id="_wJ-OEN5AEe-lVKxp0ELu9Q" name="L3">
+      <color red="229" green="185" blue="181"/>
+    </literals>
+    <literals id="_wf9sMN5AEe-lVKxp0ELu9Q" name="L4">
+      <color red="221" green="214" blue="229"/>
+    </literals>
+    <literals id="_w6hhQN5AEe-lVKxp0ELu9Q" name="L5">
+      <color red="215" green="227" blue="191"/>
+    </literals>
+    <literals id="_xpAX4N5AEe-lVKxp0ELu9Q" name="L6">
+      <color red="0" green="176" blue="80"/>
+    </literals>
+    <literals id="_yBnsMN5AEe-lVKxp0ELu9Q" name="L7">
+      <color red="250" green="240" blue="152"/>
+    </literals>
+    <literals id="_yV6hMN5AEe-lVKxp0ELu9Q" name="L8">
+      <color red="213" green="223" blue="235"/>
+    </literals>
+  </enumerations>
+  <enumerations id="_lOk_sOLvEe-eJ4CdQHg_oQ" name="Line_Levels">
+    <literals id="_4YNSgOJsEe-lVKxp0ELu9Q" name="L">
+      <color red="248" green="29" blue="34"/>
+    </literals>
+    <literals id="_J4vmgOJsEe-lVKxp0ELu9Q" name="L1">
+      <color red="0" green="176" blue="240"/>
+    </literals>
+    <literals id="_uSBssOJsEe-lVKxp0ELu9Q" name="L2">
+      <color red="234" green="112" blue="13"/>
+    </literals>
+    <literals id="_vv-RYOJsEe-lVKxp0ELu9Q" name="L3">
+      <color red="146" green="57" blue="49"/>
+    </literals>
+    <literals id="_xeVQoOJsEe-lVKxp0ELu9Q" name="L4">
+      <color red="205" green="27" blue="250"/>
+    </literals>
+    <literals id="_zSCp8OJsEe-lVKxp0ELu9Q" name="L5">
+      <color red="0" green="176" blue="80"/>
+    </literals>
+    <literals id="_0YVjoOJsEe-lVKxp0ELu9Q" name="L6">
+      <color red="0" green="0" blue="0"/>
+    </literals>
+    <literals id="_1i22AOJsEe-lVKxp0ELu9Q" name="L7">
+      <color red="147" green="111" blue="26"/>
+    </literals>
+    <literals id="_2z0HkOJsEe-lVKxp0ELu9Q" name="L8">
+      <color red="70" green="119" blue="191"/>
+    </literals>
+  </enumerations>
+  <groups id="_CfmhkN5BEe-lVKxp0ELu9Q" name="CompLevelExtension">
+    <scope>
+      <rules xsi:type="vpd:EClassRule">
+        <classifier href="http://www.polarsys.org/capella/core/la/6.0.0#//LogicalComponent"/>
+      </rules>
+      <rules xsi:type="vpd:EClassRule">
+        <classifier href="http://www.polarsys.org/capella/core/pa/6.0.0#//PhysicalComponent"/>
+      </rules>
+      <architectures>LOGICAL</architectures>
+      <architectures>PHYSICAL</architectures>
+    </scope>
+    <properties xsi:type="vpd:EnumerationProperty" id="_VmHqAN5CEe-lVKxp0ELu9Q" name="Level" description="This is the NPI Level of the Componemt" type="_bTZn0N5AEe-lVKxp0ELu9Q" defaultValue="_oeQiwN5EEe-lVKxp0ELu9Q"/>
+  </groups>
+  <groups id="_nlWp0OLvEe-eJ4CdQHg_oQ" name="ExchangeLevelExtension">
+    <scope>
+      <rules xsi:type="vpd:EClassRule">
+        <classifier href="http://www.polarsys.org/capella/core/fa/6.0.0#//ComponentExchange"/>
+      </rules>
+      <architectures>LOGICAL</architectures>
+      <architectures>PHYSICAL</architectures>
+    </scope>
+    <properties xsi:type="vpd:EnumerationProperty" id="_oTfRsOJsEe-lVKxp0ELu9Q" name="Level" description="This is the NPI Level of the Exchange." type="_lOk_sOLvEe-eJ4CdQHg_oQ" defaultValue="_4YNSgOJsEe-lVKxp0ELu9Q"/>
+  </groups>
+</vpd:VpdRoot>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ASCII"?>
+<traceability:Traceability xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:traceability="http://www.obeo.fr/dsl/traceability" id="96f03d24-cbc1-4725-9d3a-7d65da336071" modelUri="https://p4capella.diswx.com/projects/fe96985a-3c79-4a80-b283-b93f9eb1f060/edit/3">
+  <domains id="3b7f697b-53cb-45f2-b5dd-d1b78ac802e7" name="Requirements Management" uri="http://open-services.net/ns/rm#" prefix="oslc_rm">
+    <ownedArtifactTypes id="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" name="Requirement"/>
+    <ownedArtifactTypes id="0a04717a-5350-433d-8e7a-d2a75de26264" name="RequirementCollection"/>
+    <ownedLinkTypes id="5ab41d1b-bbe6-4d7e-bc7c-2e99f39798ce" name="affectedBy" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="6f4639c4-a16d-4eb1-b458-25bca59c4a47" name="constrainedBy" inverse="012bab72-bfef-4955-bed0-6c5e90cab22c" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="012bab72-bfef-4955-bed0-6c5e90cab22c" name="constrains" inverse="6f4639c4-a16d-4eb1-b458-25bca59c4a47" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="99943a60-46f0-4f9c-80dd-846ecf610462" name="decomposedBy" inverse="cd6e3703-51e0-41f4-99ea-91e49a03b265" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="cd6e3703-51e0-41f4-99ea-91e49a03b265" name="decomposes" inverse="99943a60-46f0-4f9c-80dd-846ecf610462" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="0443ce5a-18f9-4d2d-a5b2-5d734026981a" name="elaboratedBy" inverse="ffec8498-3243-4ab4-8d05-db9fbd863f7a" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="ffec8498-3243-4ab4-8d05-db9fbd863f7a" name="elaborates" inverse="0443ce5a-18f9-4d2d-a5b2-5d734026981a" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="182b79c5-8845-423a-ac91-4c198f2d7344" name="satisfiedBy" inverse="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" name="satisfies" inverse="182b79c5-8845-423a-ac91-4c198f2d7344" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="28adca1a-ae75-40b2-8a1b-fdf940f54ea9" name="implementedBy" impact="SYMMETRIC_IMPACT"/>
+    <ownedLinkTypes id="61c3ee46-c757-4fb2-ae4a-a3492d92fbca" name="specifiedBy" inverse="db251331-35fa-4ab7-9d2d-7e897366bbeb" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="db251331-35fa-4ab7-9d2d-7e897366bbeb" name="specifies" inverse="61c3ee46-c757-4fb2-ae4a-a3492d92fbca" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="a31ce281-1591-4510-af19-f34936e2a164" name="trackedBy" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="94a04617-5df9-4a10-9d68-e3309963eb1b" name="uses" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="dc0baf10-8875-4250-9479-796c5e18e010" name="validatedBy" impact="SYMMETRIC_IMPACT"/>
+  </domains>
+  <domains id="45870d92-0f9a-41d8-8331-7ae4c91bd8f4" name="Change Management" uri="http://open-services.net/ns/cm#" prefix="oslc_cm">
+    <ownedArtifactTypes id="12ea787f-18f7-4bbd-b66f-de7dc2b0454c" name="ChangeNotice"/>
+    <ownedArtifactTypes id="94a49595-2ebd-4170-af3a-03dec3c36ea3" name="ChangeRequest"/>
+    <ownedArtifactTypes id="a593c9fe-6349-476f-993f-250784f2065b" name="Defect"/>
+    <ownedArtifactTypes id="009d397b-7e43-4823-8463-f11ee00c440e" name="Enhancement"/>
+    <ownedArtifactTypes id="82279618-44f3-4e8b-94e9-bf2dfb09919e" name="ReviewTask"/>
+    <ownedArtifactTypes id="f906d4e1-2d8c-4a84-8b1e-cf68ea5c97c9" name="Task"/>
+    <ownedLinkTypes id="56fddfab-51db-4776-a80b-b1b70ab5c9d6" name="affectedByDefect" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="4f165518-e5c8-4bb2-8fbf-ba13e0f6070a" name="affectsPlanItem"/>
+    <ownedLinkTypes id="bd0ff1a8-8251-4792-809e-a5d693e9a953" name="affectsRequirement"/>
+    <ownedLinkTypes id="beff0825-66cc-41f3-8dba-e776f57f4bac" name="implementsRequirement"/>
+    <ownedLinkTypes id="4634740f-dae0-4c9c-9d0a-dc7785ff3989" name="parent"/>
+    <ownedLinkTypes id="7407d81d-34f1-4cb7-8e27-e359fa1162f9" name="relatedChangeRequest"/>
+    <ownedLinkTypes id="67fb00e4-045b-4f3d-a283-21cf6dc02b26" name="tracksRequirement"/>
+  </domains>
+  <domains id="9b2aadaf-a95b-4e47-a974-596d80089731" name="Quality Management" uri="http://open-services.net/ns/qm#" prefix="oslc_qm">
+    <ownedArtifactTypes id="967c041e-de85-4fea-b10c-4aebc42455ee" name="TestPlan"/>
+    <ownedArtifactTypes id="d1871411-2bfd-4d36-a360-c380be4c246d" name="TestCase"/>
+    <ownedArtifactTypes id="2c04db70-6a73-47c2-9e68-06ca200bb11d" name="TestScript"/>
+    <ownedArtifactTypes id="c37b5e1e-4885-43da-9217-3a21b3c4246e" name="TestExecutionRecord"/>
+    <ownedArtifactTypes id="6c5700d2-793c-431b-b573-d8ae8c884c6f" name="TestResult"/>
+    <ownedLinkTypes id="db1afe29-3a70-4275-866a-df230783093d" name="affectedByChangeRequest" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="f9c0ba0a-cdff-4252-8aaf-72af83b7c152" name="blockedByChangeRequest" impact="OPPOSITE_LINK"/>
+    <ownedLinkTypes id="0c169695-06c7-4dfc-8eb9-ef87e283c3f0" name="executesTestScript"/>
+    <ownedLinkTypes id="2e6d6569-42fb-4c3e-a71a-8a23d4d3b2a8" name="producedByTestExecutionRecord"/>
+    <ownedLinkTypes id="8578a694-5352-40e4-aba2-0f0127c75929" name="relatedChangeRequest"/>
+    <ownedLinkTypes id="b7330b30-baef-4fa2-9ada-b8824ae7f170" name="reportsOnTestCase"/>
+    <ownedLinkTypes id="daad6dee-156b-4cf6-8a84-85544634d966" name="reportsOnTestPlan" impact="FOLLOWS_LINK"/>
+    <ownedLinkTypes id="3a96d75f-58a2-467b-845e-7c3d72834cde" name="runsTestCase"/>
+    <ownedLinkTypes id="42f1a754-35f6-4f14-98f6-633c8c10fdc0" name="testsChangeRequest"/>
+    <ownedLinkTypes id="c86babac-a56d-4c4d-8ba4-be59dd6d33c0" name="usesTestCase"/>
+    <ownedLinkTypes id="3d1decc2-98b0-4443-bc70-36172da23599" name="usesTestScript"/>
+    <ownedLinkTypes id="d6cbf4bb-f24b-406d-81ea-42745d0d6eb3" name="validatesRequirement"/>
+    <ownedLinkTypes id="9750dfdb-0e76-40ea-b276-e098f97d4acb" name="validatesRequirementCollection"/>
+  </domains>
+  <domains id="e7773f84-89de-4d99-98b7-bf43039022cd" name="Configuration Management" uri="http://open-services.net/ns/config#" prefix="oslc_config">
+    <ownedArtifactTypes id="d7cc8a93-8814-49df-a344-bb39e11275a8" name="Configuration"/>
+    <ownedArtifactTypes id="b4d889e0-c170-4277-9120-d28271afa0f7" name="Component"/>
+    <ownedArtifactTypes id="00e41896-f397-4524-8bdc-a0f67bab2975" name="VersionedResource"/>
+    <ownedLinkTypes id="ad692fc7-aea9-42ea-bd66-7606e2c2079b" name="component" artifactRange="b4d889e0-c170-4277-9120-d28271afa0f7"/>
+  </domains>
+  <repositories id="8f15fcc9-4174-4ca6-9d16-f3bdac852fa6" name="Polarion" url="https://polarion.diswx.com/polarion/oslc/rootservices" configuration="">
+    <linkRanges id="a5b4808e-3771-46e3-b6ec-d6e13af00d4b" name="Requirement Satisfies Element" linkType="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifactRange="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3 0a04717a-5350-433d-8e7a-d2a75de26264" directionConstraint="MODEL_TO_ARTIFACT">
+      <localRange>CapellaElement</localRange>
+    </linkRanges>
+    <store id="6570d6d8-c187-41ae-9a27-974130007538">
+      <ownedArtifacts xsi:type="traceability:Artifact" types="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" title="Vehicle Mass" url="https://polarion.diswx.com/polarion/oslc/services/projects/drivepilot/workitems/DP-1632" identifier="DP-1632" id="af4b3bef-47ca-4ac8-8fbd-1600d16b9e2f">
+        <ownedLinks xsi:type="traceability:Link" type="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifact="af4b3bef-47ca-4ac8-8fbd-1600d16b9e2f" id="15d710e1-63a0-4610-b0ac-141e80e33d2f">
+          <modelObject href="EV%20Thermal%20System.capella#a2da5b5b-7409-40b6-bf87-5ff510c4a96d"/>
+        </ownedLinks>
+      </ownedArtifacts>
+    </store>
+    <snapshots/>
+  </repositories>
+</traceability:Traceability>
