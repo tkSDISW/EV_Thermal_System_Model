@@ -1,0 +1,1799 @@
+# YAML file for Capella objects
+      # YAML file for system model relationships
+      schema:
+        primary_uuid: Unique identifier for the primary object
+        ref_uuid: Unique identifier for a referenced object
+      - name: Vehicle
+        type: LogicalComponent
+        primary_uuid: a2da5b5b-7409-40b6-bf87-5ff510c4a96d
+        description : 
+        is_human : False
+        components:
+          - component Electric Motor
+            ref_uuid : adf89ebc-6944-4c2d-a6fc-42b558260391
+          - component Pump
+            ref_uuid : 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+          - component PTC Heater
+            ref_uuid : 1d103d59-bbcb-472f-9f64-b50ba23305b8
+          - component Battery Pack
+            ref_uuid : 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+          - component Hydaulic Cooling
+            ref_uuid : 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+          - component Radiator
+            ref_uuid : 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+          - component Chassis
+            ref_uuid : 9245a581-dd85-48d8-8d49-954e083675d5
+        deployed components:
+        allocated functions:
+        ports:
+        applied property value groups:
+          - name: Vehicle Properties
+            ref_uuid : 9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : 2db0ec2a-9b2b-455b-945b-7352389c0d52
+      - name: Electric Motor
+        type: LogicalComponent
+        primary_uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Provide Mechanical  Rotation
+            ref_uuid : a8227424-40a4-42d0-87c0-da1134b6aef6
+        ports:
+          - name: CP 2
+            description :  
+            ref_uuid : 2a08252a-4e3f-419c-9e10-c776344cade5
+            exchanges:
+              - name: Mech
+                ref_uuid:  984045c0-e10d-474c-a240-ed7f4c8426f9
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Electric Motor
+                ref_uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+          - name: CP 3
+            description :  
+            ref_uuid : 6e8791b4-e97e-4a18-93b3-b3c70ae263a6
+            exchanges:
+          - name: CP 5
+            description :  
+            ref_uuid : 2124fe2a-1c4b-4e8b-97e4-73e66f6a4b4d
+            exchanges:
+              - name: Mech
+                ref_uuid:  03e7f060-d6dd-436c-aa67-de6d0dda1ecb
+                description :  
+                source_component_name: Electric Motor
+                ref__uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+                target_component_name: Pump
+                ref_uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+          - name: CP 1
+            description :  
+            ref_uuid : 63fa99c4-0e9e-4432-8a90-d7cd37a2db1f
+            exchanges:
+              - name: Electrical
+                ref_uuid:  fbb6b483-f375-4d02-b6e2-af02a53e6c61
+                description :  
+                source_component_name: Battery Pack
+                ref__uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+                target_component_name: Electric Motor
+                ref_uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : 48142ce1-7e6e-4393-9481-cd9d5733d446
+      - name: Pump
+        type: LogicalComponent
+        primary_uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Move Fluid
+            ref_uuid : b18c96f9-fd46-4221-9846-dc734ecb745e
+        ports:
+          - name: CP 2
+            description :  
+            ref_uuid : aa97779d-be7f-4899-8fab-07094a0792b0
+            exchanges:
+              - name: Mech
+                ref_uuid:  03e7f060-d6dd-436c-aa67-de6d0dda1ecb
+                description :  
+                source_component_name: Electric Motor
+                ref__uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+                target_component_name: Pump
+                ref_uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+          - name: CP 6
+            description :  
+            ref_uuid : bd9fbead-a235-4c24-ae00-8abcf68cd736
+            exchanges:
+              - name: Coolant
+                ref_uuid:  7866a60e-a0bb-41b4-b2b2-481dfb5f39f0
+                description :  
+                source_component_name: Radiator
+                ref__uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+                target_component_name: Pump
+                ref_uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+          - name: 
+            description :  
+            ref_uuid : c9b992da-3fcf-4c0f-bc5c-931a20e5dc6b
+            exchanges:
+              - name: Coolant
+                ref_uuid:  18ebc9a9-00c4-45b0-8f1e-aae1fe9682f4
+                description :  
+                source_component_name: Pump
+                ref__uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+                target_component_name: PTC Heater
+                ref_uuid: 1d103d59-bbcb-472f-9f64-b50ba23305b8
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : 29938280-cb82-4f12-a8f0-eb54fa5f00e2
+      - name: PTC Heater
+        type: LogicalComponent
+        primary_uuid: 1d103d59-bbcb-472f-9f64-b50ba23305b8
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Produce Heat
+            ref_uuid : ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+        ports:
+          - name: CP 6
+            description :  
+            ref_uuid : 87b5146a-919e-4c89-8101-dc9dc1c19805
+            exchanges:
+              - name: Coolant
+                ref_uuid:  bfb1f0af-92d1-4430-b0f4-00bfa7270d99
+                description :  
+                source_component_name: PTC Heater
+                ref__uuid: 1d103d59-bbcb-472f-9f64-b50ba23305b8
+                target_component_name: Hydaulic Cooling
+                ref_uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+          - name: CP 7
+            description :  
+            ref_uuid : e39c3d39-1827-4c3c-9389-1ddfde354eb0
+            exchanges:
+              - name: Coolant
+                ref_uuid:  18ebc9a9-00c4-45b0-8f1e-aae1fe9682f4
+                description :  
+                source_component_name: Pump
+                ref__uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+                target_component_name: PTC Heater
+                ref_uuid: 1d103d59-bbcb-472f-9f64-b50ba23305b8
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : 4b55e54d-359f-421a-8eb7-b35d3997ec05
+      - name: Battery Pack
+        type: LogicalComponent
+        primary_uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Generate and Absorb Heat
+            ref_uuid : 33f5ab00-73ff-4f70-b38d-d0af1024e7f1
+          - name: Provide Power
+            ref_uuid : f58ed567-6aee-43f9-8af7-ec19216b8c99
+        ports:
+          - name: CP 1
+            description :  
+            ref_uuid : f856aa1d-c7b8-4fc9-b9c9-d604f5283d9e
+            exchanges:
+              - name: Mechanical
+                ref_uuid:  95568164-bc00-4d0f-994c-82d1159bb4a3
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Battery Pack
+                ref_uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+          - name: CP 5
+            description :  
+            ref_uuid : 92d13716-3da1-4534-be2a-da2d04eca42a
+            exchanges:
+              - name: Coolant
+                ref_uuid:  6a6fdd33-5435-4104-83ae-2265c9522bf4
+                description :  
+                source_component_name: Battery Pack
+                ref__uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+                target_component_name: Hydaulic Cooling
+                ref_uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+          - name: CP 4
+            description :  
+            ref_uuid : 785c6143-a744-49f9-8cc2-7894f570f4aa
+            exchanges:
+              - name: Electrical
+                ref_uuid:  fbb6b483-f375-4d02-b6e2-af02a53e6c61
+                description :  
+                source_component_name: Battery Pack
+                ref__uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+                target_component_name: Electric Motor
+                ref_uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : a7346810-900b-408c-aa32-f3034c38a34e
+      - name: Hydaulic Cooling
+        type: LogicalComponent
+        primary_uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Transfer Heat
+            ref_uuid : f6eeb74c-fa65-4343-afda-efa4500110f1
+        ports:
+          - name: CP 1
+            description :  
+            ref_uuid : 3b71f3ae-9238-4229-a463-8dc32aeb1d71
+            exchanges:
+              - name: Coolant
+                ref_uuid:  bfb1f0af-92d1-4430-b0f4-00bfa7270d99
+                description :  
+                source_component_name: PTC Heater
+                ref__uuid: 1d103d59-bbcb-472f-9f64-b50ba23305b8
+                target_component_name: Hydaulic Cooling
+                ref_uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+          - name: CP 2
+            description :  
+            ref_uuid : 9974d105-e9aa-40ec-96ac-c2cfe09d774d
+            exchanges:
+              - name: Coolant
+                ref_uuid:  9000a120-a127-4653-bd6c-5e0808b88924
+                description :  
+                source_component_name: Hydaulic Cooling
+                ref__uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+                target_component_name: Radiator
+                ref_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+          - name: CP 3
+            description :  
+            ref_uuid : 838231b7-2014-4f55-bc0c-6221df2483f0
+            exchanges:
+              - name: Coolant
+                ref_uuid:  6a6fdd33-5435-4104-83ae-2265c9522bf4
+                description :  
+                source_component_name: Battery Pack
+                ref__uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+                target_component_name: Hydaulic Cooling
+                ref_uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+          - name: CP 4
+            description :  
+            ref_uuid : de941ff2-61e9-4732-982d-9a6e45f96943
+            exchanges:
+              - name: Mounting
+                ref_uuid:  fb16ebe1-1031-4f93-b350-3466b0c4c4cb
+                description :  
+                source_component_name: Hydaulic Cooling
+                ref__uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+                target_component_name: Chassis
+                ref_uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+        applied property value groups:
+          - name: Hydaulic High
+            ref_uuid : 81bf727d-a44f-4209-99a2-6c4f85399cc1
+          - name: Hydraulic Low
+            ref_uuid : df9de9c7-4213-440a-bb18-1fd509faf382
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : 631afdec-8793-4200-a13d-2197856edf43
+      - name: Radiator
+        type: LogicalComponent
+        primary_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+          - name: Transfer Heat
+            ref_uuid : e613064d-d901-4177-98f4-b67379bb9bb1
+        ports:
+          - name: CP 2
+            description :  
+            ref_uuid : a32ca2c5-25d5-4d24-87d2-2dba5c191178
+            exchanges:
+              - name: Coolant
+                ref_uuid:  9000a120-a127-4653-bd6c-5e0808b88924
+                description :  
+                source_component_name: Hydaulic Cooling
+                ref__uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+                target_component_name: Radiator
+                ref_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+          - name: CP 4
+            description :  
+            ref_uuid : a5bdc13c-32ba-4359-a8a1-ce33bb7b8758
+            exchanges:
+              - name: Coolant
+                ref_uuid:  7866a60e-a0bb-41b4-b2b2-481dfb5f39f0
+                description :  
+                source_component_name: Radiator
+                ref__uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+                target_component_name: Pump
+                ref_uuid: 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+          - name: CP 6
+            description :  
+            ref_uuid : 9540ee00-fca7-49ef-a709-fecafcb6c354
+            exchanges:
+              - name: Ambient Air
+                ref_uuid:  11d7817e-e739-4cb3-bfc9-65cf4b7a9c39
+                description :  
+                source_component_name: Environment
+                ref__uuid: 14264fd0-837b-4250-be19-3719999bded6
+                target_component_name: Radiator
+                ref_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+          - name: CP 5
+            description :  
+            ref_uuid : f7777d7f-4c50-4bc9-84d6-90ce27b0e8c0
+            exchanges:
+              - name: Mounting
+                ref_uuid:  4f02589c-d150-4a49-934f-efe26a60640e
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Radiator
+                ref_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : ae3ab6ee-345f-4706-83be-737e62a5e290
+      - name: Chassis
+        type: LogicalComponent
+        primary_uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+        description : 
+        is_human : False
+        components:
+        deployed components:
+        allocated functions:
+        ports:
+          - name: CP 13
+            description :  
+            ref_uuid : 84d12545-c944-48b2-9839-9d7a51c36ada
+            exchanges:
+              - name: Mounting
+                ref_uuid:  fb16ebe1-1031-4f93-b350-3466b0c4c4cb
+                description :  
+                source_component_name: Hydaulic Cooling
+                ref__uuid: 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+                target_component_name: Chassis
+                ref_uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+          - name: CP 9
+            description :  
+            ref_uuid : 6e998baf-cd0b-4a25-92b0-50f5fc4c3c8f
+            exchanges:
+              - name: Mechanical
+                ref_uuid:  95568164-bc00-4d0f-994c-82d1159bb4a3
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Battery Pack
+                ref_uuid: 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+          - name: CP 12
+            description :  
+            ref_uuid : 28a40446-eade-4b48-9dc7-e903704deed2
+            exchanges:
+              - name: Mounting
+                ref_uuid:  4f02589c-d150-4a49-934f-efe26a60640e
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Radiator
+                ref_uuid: 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+          - name: CP 10
+            description :  
+            ref_uuid : 9e776dc6-08bd-4820-a331-b25c3eddbdf5
+            exchanges:
+              - name: Mech
+                ref_uuid:  984045c0-e10d-474c-a240-ed7f4c8426f9
+                description :  
+                source_component_name: Chassis
+                ref__uuid: 9245a581-dd85-48d8-8d49-954e083675d5
+                target_component_name: Electric Motor
+                ref_uuid: adf89ebc-6944-4c2d-a6fc-42b558260391
+        applied property value groups:
+          - name: NPI_Levels.CompLevelExtension
+            ref_uuid : b18f7e4d-30ba-46eb-89e4-f160cfe11ec9
+      - name: Vehicle Properties
+        type: PropertyValueGroup
+        primary_uuid: 9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af
+        description : 
+        applied property value groups:
+          - name: Vehicle Mass
+            ref_uuid : ac470522-29e1-4945-8503-dc1a38c1032e
+        property value groups:
+        - name: Vehicle Mass
+          ref_uuid: uuid : ac470522-29e1-4945-8503-dc1a38c1032e
+        property values:
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 2db0ec2a-9b2b-455b-945b-7352389c0d52
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 85a9beda-7a3e-4d2e-8f7e-16fdea218294
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 85a9beda-7a3e-4d2e-8f7e-16fdea218294
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: Vehicle Mass
+      type: Traceability_Artifact Polarion Workitem Requirement
+      primary_uuid: af4b3bef-47ca-4ac8-8fbd-1600d16b9e2f
+      url : https://polarion.diswx.com/polarion/oslc/services/projects/drivepilot/workitems/DP-1632
+      identifier : DP-1632
+      linked model elements:
+        - name : satisfies
+          ref_uuid : a2da5b5b-7409-40b6-bf87-5ff510c4a96d
+    - name: CP 2
+      type: ComponentPort
+      primary_uuid: 2a08252a-4e3f-419c-9e10-c776344cade5
+      description : 
+      - name: Mech
+        type: ComponentExchange
+        primary_uuid: 984045c0-e10d-474c-a240-ed7f4c8426f9
+        description : 
+        source component:
+        - name: Chassis
+          ref_uuid: 
+        target component:
+        - name: Electric Motor
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 453560db-75fb-43a1-b27c-99dabd0e4743
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : cbc3cae5-1cc9-484a-ad2d-6b8227e88b1c
+    - name: CP 3
+      type: ComponentPort
+      primary_uuid: 6e8791b4-e97e-4a18-93b3-b3c70ae263a6
+      description : 
+    - name: CP 5
+      type: ComponentPort
+      primary_uuid: 2124fe2a-1c4b-4e8b-97e4-73e66f6a4b4d
+      description : 
+      - name: Mech
+        type: ComponentExchange
+        primary_uuid: 03e7f060-d6dd-436c-aa67-de6d0dda1ecb
+        description : 
+        source component:
+        - name: Electric Motor
+          ref_uuid: 
+        target component:
+        - name: Pump
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : a787a771-812b-4c97-8842-b397ecde06b4
+          allocated functional exchanges:
+           - name: Mechanical Rotation
+           ref_uuid : 07999910-d04f-4516-b7e8-f426bb704be7
+    - name: CP 1
+      type: ComponentPort
+      primary_uuid: 63fa99c4-0e9e-4432-8a90-d7cd37a2db1f
+      description : 
+      - name: Electrical
+        type: ComponentExchange
+        primary_uuid: fbb6b483-f375-4d02-b6e2-af02a53e6c61
+        description : 
+        source component:
+        - name: Battery Pack
+          ref_uuid: 
+        target component:
+        - name: Electric Motor
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 5c760b02-bcff-468d-b8c9-f46c0b9340d6
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 6ff6536b-8a27-4e29-9fb1-4e3869775952
+          allocated functional exchanges:
+           - name: Power
+           ref_uuid : 6cddf697-194a-41d9-bc04-76884506fbe7
+      - name: Provide Mechanical  Rotation
+        type: LogicalFunction
+        primary_uuid: a8227424-40a4-42d0-87c0-da1134b6aef6
+        description : 
+        owner :
+          - name : Electric Motor
+            ref_uuid : adf89ebc-6944-4c2d-a6fc-42b558260391
+        child functions:
+        inputs:
+          - name: FIP 1
+            description :  
+            ref_uuid : 5362fb36-f84c-462d-b3e3-063201cb0957
+            exchanges:
+              - name: Power
+                ref_uuid:  6cddf697-194a-41d9-bc04-76884506fbe7
+                description :  
+                source_function_name: Provide Power
+                ref_uuid: f58ed567-6aee-43f9-8af7-ec19216b8c99
+                target_function_name: Provide Mechanical  Rotation
+                ref_uuid: a8227424-40a4-42d0-87c0-da1134b6aef6
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : ae88061a-4042-409e-afbb-b3b6b58b8203
+            exchanges:
+              - name: Mechanical Rotation
+                ref_uuid:  07999910-d04f-4516-b7e8-f426bb704be7
+                description :  
+                source_function_name: Provide Mechanical  Rotation
+                ref_uuid: a8227424-40a4-42d0-87c0-da1134b6aef6
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 48142ce1-7e6e-4393-9481-cd9d5733d446
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : a9dc6d07-4cc2-4540-a9ea-a71070a1c4f9
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: a9dc6d07-4cc2-4540-a9ea-a71070a1c4f9
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 2
+      type: ComponentPort
+      primary_uuid: aa97779d-be7f-4899-8fab-07094a0792b0
+      description : 
+    - name: CP 6
+      type: ComponentPort
+      primary_uuid: bd9fbead-a235-4c24-ae00-8abcf68cd736
+      description : 
+      - name: Coolant
+        type: ComponentExchange
+        primary_uuid: 7866a60e-a0bb-41b4-b2b2-481dfb5f39f0
+        description : 
+        source component:
+        - name: Radiator
+          ref_uuid: 
+        target component:
+        - name: Pump
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : bf6ffdde-7a41-4d45-a101-00f53f202895
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 961a2f87-a2bb-4f22-b491-56c07afc4da2
+          allocated functional exchanges:
+           - name: Cool Fluid
+           ref_uuid : 08f6ce67-cb8c-4f17-ad3c-9d76e38a8b22
+    - name: 
+      type: ComponentPort
+      primary_uuid: c9b992da-3fcf-4c0f-bc5c-931a20e5dc6b
+      description : 
+      - name: Coolant
+        type: ComponentExchange
+        primary_uuid: 18ebc9a9-00c4-45b0-8f1e-aae1fe9682f4
+        description : 
+        source component:
+        - name: Pump
+          ref_uuid: 
+        target component:
+        - name: PTC Heater
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : c627564d-873b-48df-b9b1-a81fea865884
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 00968c5d-57ee-4713-a866-0aca6f9f47f9
+          allocated functional exchanges:
+           - name: Cool Fluid
+           ref_uuid : a98ea407-818c-4ed2-9d96-a94ce837c384
+      - name: Move Fluid
+        type: LogicalFunction
+        primary_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+        description : 
+        owner :
+          - name : Pump
+            ref_uuid : 0c6a042e-a23a-42fb-a7c0-d8744e130f49
+        child functions:
+        inputs:
+          - name: FIP 1
+            description :  
+            ref_uuid : 256f0271-93ae-4a74-a624-a48639f2f9bd
+            exchanges:
+              - name: Cool Fluid
+                ref_uuid:  08f6ce67-cb8c-4f17-ad3c-9d76e38a8b22
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+          - name: FIP 2
+            description :  
+            ref_uuid : 12278b60-6364-4960-8e28-8109e7ca07a7
+            exchanges:
+              - name: Mechanical Rotation
+                ref_uuid:  07999910-d04f-4516-b7e8-f426bb704be7
+                description :  
+                source_function_name: Provide Mechanical  Rotation
+                ref_uuid: a8227424-40a4-42d0-87c0-da1134b6aef6
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+          - name: FIP 3
+            description :  
+            ref_uuid : c56749ae-ac7e-4f4c-b236-2fe8b7af162b
+            exchanges:
+              - name: Warm Fluid
+                ref_uuid:  3ff89675-b660-48d0-92a2-3e3668c0d97a
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : 229f1e97-e129-4c97-a5d7-d6f13acddb7f
+            exchanges:
+              - name: Cool Fluid
+                ref_uuid:  a98ea407-818c-4ed2-9d96-a94ce837c384
+                description :  
+                source_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+                target_function_name: Produce Heat
+                ref_uuid: ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 29938280-cb82-4f12-a8f0-eb54fa5f00e2
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 083b68db-6a39-4a68-9b30-2503425cb0e8
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 083b68db-6a39-4a68-9b30-2503425cb0e8
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 6
+      type: ComponentPort
+      primary_uuid: 87b5146a-919e-4c89-8101-dc9dc1c19805
+      description : 
+      - name: Coolant
+        type: ComponentExchange
+        primary_uuid: bfb1f0af-92d1-4430-b0f4-00bfa7270d99
+        description : 
+        source component:
+        - name: PTC Heater
+          ref_uuid: 
+        target component:
+        - name: Hydaulic Cooling
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 00620418-7a62-4548-9610-a1a97f7054d2
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 80699189-7c9a-451d-9d7b-425e405a9ab6
+          allocated functional exchanges:
+           - name: Heat
+           ref_uuid : c354be11-41d9-41a1-8607-deffa78537d9
+    - name: CP 7
+      type: ComponentPort
+      primary_uuid: e39c3d39-1827-4c3c-9389-1ddfde354eb0
+      description : 
+      - name: Produce Heat
+        type: LogicalFunction
+        primary_uuid: ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+        description : 
+        owner :
+          - name : PTC Heater
+            ref_uuid : 1d103d59-bbcb-472f-9f64-b50ba23305b8
+        child functions:
+        inputs:
+          - name: FIP 1
+            description :  
+            ref_uuid : 75c63121-88c9-4653-aced-f00284c4020f
+            exchanges:
+              - name: Cool Fluid
+                ref_uuid:  a98ea407-818c-4ed2-9d96-a94ce837c384
+                description :  
+                source_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+                target_function_name: Produce Heat
+                ref_uuid: ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : f11a6d91-52f0-48b4-a50f-7b76c0d47e66
+            exchanges:
+              - name: Heat
+                ref_uuid:  c354be11-41d9-41a1-8607-deffa78537d9
+                description :  
+                source_function_name: Produce Heat
+                ref_uuid: ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+                target_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 4b55e54d-359f-421a-8eb7-b35d3997ec05
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 4fd85fd1-caa0-458a-ac22-e4fbfd416400
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 4fd85fd1-caa0-458a-ac22-e4fbfd416400
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 1
+      type: ComponentPort
+      primary_uuid: f856aa1d-c7b8-4fc9-b9c9-d604f5283d9e
+      description : 
+      - name: Mechanical
+        type: ComponentExchange
+        primary_uuid: 95568164-bc00-4d0f-994c-82d1159bb4a3
+        description : 
+        source component:
+        - name: Chassis
+          ref_uuid: 
+        target component:
+        - name: Battery Pack
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 020958fb-fd24-4e4e-a02b-75d756f28e10
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : ee341ad2-a36e-445c-ab0a-c913735a655a
+    - name: CP 5
+      type: ComponentPort
+      primary_uuid: 92d13716-3da1-4534-be2a-da2d04eca42a
+      description : 
+      - name: Coolant
+        type: ComponentExchange
+        primary_uuid: 6a6fdd33-5435-4104-83ae-2265c9522bf4
+        description : 
+        source component:
+        - name: Battery Pack
+          ref_uuid: 
+        target component:
+        - name: Hydaulic Cooling
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 417bb0d3-3549-4133-9065-ed78f714b1a9
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : f332d158-abaf-4c26-a12f-19bdad9e391d
+          allocated functional exchanges:
+           - name: Heat
+           ref_uuid : cbc31c22-53bc-424a-abdc-dcac050e870b
+    - name: CP 4
+      type: ComponentPort
+      primary_uuid: 785c6143-a744-49f9-8cc2-7894f570f4aa
+      description : 
+      - name: Generate and Absorb Heat
+        type: LogicalFunction
+        primary_uuid: 33f5ab00-73ff-4f70-b38d-d0af1024e7f1
+        description : 
+        owner :
+          - name : Battery Pack
+            ref_uuid : 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+        child functions:
+        inputs:
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : 38ae2e37-48fa-469c-9a38-51a0c10dab20
+            exchanges:
+              - name: Heat
+                ref_uuid:  cbc31c22-53bc-424a-abdc-dcac050e870b
+                description :  
+                source_function_name: Generate and Absorb Heat
+                ref_uuid: 33f5ab00-73ff-4f70-b38d-d0af1024e7f1
+                target_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+      - name: Provide Power
+        type: LogicalFunction
+        primary_uuid: f58ed567-6aee-43f9-8af7-ec19216b8c99
+        description : 
+        owner :
+          - name : Battery Pack
+            ref_uuid : 0c373481-f3da-4ad0-a4ad-f324e74e9abc
+        child functions:
+        inputs:
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : 69b29426-8796-4f8c-832f-69cb46719e79
+            exchanges:
+              - name: Power
+                ref_uuid:  6cddf697-194a-41d9-bc04-76884506fbe7
+                description :  
+                source_function_name: Provide Power
+                ref_uuid: f58ed567-6aee-43f9-8af7-ec19216b8c99
+                target_function_name: Provide Mechanical  Rotation
+                ref_uuid: a8227424-40a4-42d0-87c0-da1134b6aef6
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: a7346810-900b-408c-aa32-f3034c38a34e
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : fcde8684-2e1a-4884-b3fa-912549cd9469
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: fcde8684-2e1a-4884-b3fa-912549cd9469
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 1
+      type: ComponentPort
+      primary_uuid: 3b71f3ae-9238-4229-a463-8dc32aeb1d71
+      description : 
+    - name: CP 2
+      type: ComponentPort
+      primary_uuid: 9974d105-e9aa-40ec-96ac-c2cfe09d774d
+      description : 
+      - name: Coolant
+        type: ComponentExchange
+        primary_uuid: 9000a120-a127-4653-bd6c-5e0808b88924
+        description : 
+        source component:
+        - name: Hydaulic Cooling
+          ref_uuid: 
+        target component:
+        - name: Radiator
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : 35ff8b4d-dcff-4206-8063-192b4fb1e51a
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : c3c13e7c-bf0e-4d4f-97c4-e0285abf85d8
+          allocated functional exchanges:
+           - name: Hat Fluid
+           ref_uuid : fab81dd4-f440-42b4-887b-8447c90ad3f1
+    - name: CP 3
+      type: ComponentPort
+      primary_uuid: 838231b7-2014-4f55-bc0c-6221df2483f0
+      description : 
+    - name: CP 4
+      type: ComponentPort
+      primary_uuid: de941ff2-61e9-4732-982d-9a6e45f96943
+      description : 
+      - name: Mounting
+        type: ComponentExchange
+        primary_uuid: fb16ebe1-1031-4f93-b350-3466b0c4c4cb
+        description : 
+        source component:
+        - name: Hydaulic Cooling
+          ref_uuid: 
+        target component:
+        - name: Chassis
+          ref_uuid: 
+          applied property value groups:
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : a360a271-e514-471c-9875-0370e50db9fc
+      - name: Transfer Heat
+        type: LogicalFunction
+        primary_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+        description : 
+        owner :
+          - name : Hydaulic Cooling
+            ref_uuid : 407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0
+        child functions:
+        inputs:
+          - name: FIP 2
+            description :  
+            ref_uuid : e744731c-da3c-4a6f-856d-fe08074f844a
+            exchanges:
+              - name: Heat
+                ref_uuid:  cbc31c22-53bc-424a-abdc-dcac050e870b
+                description :  
+                source_function_name: Generate and Absorb Heat
+                ref_uuid: 33f5ab00-73ff-4f70-b38d-d0af1024e7f1
+                target_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+          - name: FIP 3
+            description :  
+            ref_uuid : d4940315-e693-4d3f-9d3f-e668248e76c3
+            exchanges:
+              - name: Heat
+                ref_uuid:  c354be11-41d9-41a1-8607-deffa78537d9
+                description :  
+                source_function_name: Produce Heat
+                ref_uuid: ca30cd6a-ff1c-4bfa-a40b-5031a99cf5a3
+                target_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : 641c6d44-df55-4bd4-b585-273d299a3082
+            exchanges:
+              - name: Hat Fluid
+                ref_uuid:  fab81dd4-f440-42b4-887b-8447c90ad3f1
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+                target_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+          - name: FOP 2
+            description :  
+            ref_uuid : 31111264-50fe-49d5-85d5-24297925b2da
+            exchanges:
+              - name: Warm Fluid
+                ref_uuid:  3ff89675-b660-48d0-92a2-3e3668c0d97a
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+      - name: Hydaulic High
+        type: PropertyValueGroup
+        primary_uuid: 81bf727d-a44f-4209-99a2-6c4f85399cc1
+        description : 
+        applied property value groups:
+          - name: Wall Thickness
+            ref_uuid : d15a5ea3-ee27-46e9-bf8a-0d52ea49e620
+        property value groups:
+        - name: Wall Thickness
+          ref_uuid: uuid : d15a5ea3-ee27-46e9-bf8a-0d52ea49e620
+        property values:
+      - name: Hydraulic Low
+        type: PropertyValueGroup
+        primary_uuid: df9de9c7-4213-440a-bb18-1fd509faf382
+        description : 
+        property value groups:
+        property values:
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 631afdec-8793-4200-a13d-2197856edf43
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : af07592c-7cac-4530-9d9b-415f3da608f5
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: af07592c-7cac-4530-9d9b-415f3da608f5
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 2
+      type: ComponentPort
+      primary_uuid: a32ca2c5-25d5-4d24-87d2-2dba5c191178
+      description : 
+    - name: CP 4
+      type: ComponentPort
+      primary_uuid: a5bdc13c-32ba-4359-a8a1-ce33bb7b8758
+      description : 
+    - name: CP 6
+      type: ComponentPort
+      primary_uuid: 9540ee00-fca7-49ef-a709-fecafcb6c354
+      description : 
+      - name: Ambient Air
+        type: ComponentExchange
+        primary_uuid: 11d7817e-e739-4cb3-bfc9-65cf4b7a9c39
+        description : 
+        source component:
+        - name: Environment
+          ref_uuid: 
+        target component:
+        - name: Radiator
+          ref_uuid: 
+          applied property value groups:
+              - name: NPI_Levels.ExchangeLevelExtension
+                ref_uuid : f35cfdb8-a6d5-439c-91dd-b95fed8b1a8d
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 5b2aecb9-1c7b-4925-99df-322983e81358
+          allocated functional exchanges:
+           - name: Cool Air
+           ref_uuid : f1d8c4e0-e71c-457f-b3a1-32467b316cf2
+           - name: Hot Air
+           ref_uuid : aa70305e-82db-4314-92b6-3a80e6e08771
+    - name: CP 5
+      type: ComponentPort
+      primary_uuid: f7777d7f-4c50-4bc9-84d6-90ce27b0e8c0
+      description : 
+      - name: Mounting
+        type: ComponentExchange
+        primary_uuid: 4f02589c-d150-4a49-934f-efe26a60640e
+        description : 
+        source component:
+        - name: Chassis
+          ref_uuid: 
+        target component:
+        - name: Radiator
+          ref_uuid: 
+          applied property value groups:
+              - name: Engine_System_Legend.EngineSystemExtension
+                ref_uuid : 9ffdddb8-690f-43ed-8400-97373311790e
+      - name: Transfer Heat
+        type: LogicalFunction
+        primary_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+        description : 
+        owner :
+          - name : Radiator
+            ref_uuid : 794bd7a7-2e0d-43e5-9a3e-4f561eaa8184
+        child functions:
+        inputs:
+          - name: FIP 1
+            description :  
+            ref_uuid : eac35814-6dd5-44d3-a06c-ac183e19e1ea
+            exchanges:
+              - name: Hat Fluid
+                ref_uuid:  fab81dd4-f440-42b4-887b-8447c90ad3f1
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: f6eeb74c-fa65-4343-afda-efa4500110f1
+                target_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+          - name: FIP 2
+            description :  
+            ref_uuid : 7053fd0a-e922-4353-8be5-811810aa9ca4
+            exchanges:
+              - name: Cool Air
+                ref_uuid:  f1d8c4e0-e71c-457f-b3a1-32467b316cf2
+                description :  
+                source_function_name: Provide Ambient Air
+                ref_uuid: 6ea484f4-3fa6-4903-b32d-394316f3b62b
+                target_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+        outputs:
+          - name: FOP 1
+            description :  
+            ref_uuid : b647df53-45a8-482b-b749-c5aa6591462a
+            exchanges:
+              - name: Cool Fluid
+                ref_uuid:  08f6ce67-cb8c-4f17-ad3c-9d76e38a8b22
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+                target_function_name: Move Fluid
+                ref_uuid: b18c96f9-fd46-4221-9846-dc734ecb745e
+          - name: FOP 2
+            description :  
+            ref_uuid : a311b01e-9973-470d-9bbd-2a40766c5b19
+            exchanges:
+              - name: Hot Air
+                ref_uuid:  aa70305e-82db-4314-92b6-3a80e6e08771
+                description :  
+                source_function_name: Transfer Heat
+                ref_uuid: e613064d-d901-4177-98f4-b67379bb9bb1
+                target_function_name: Absorb Heat
+                ref_uuid: 94106df7-0786-430b-9c19-06266dcedaae
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: ae3ab6ee-345f-4706-83be-737e62a5e290
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : c09bf9a9-1e9b-4f88-b06b-13ae2aa520f1
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: c09bf9a9-1e9b-4f88-b06b-13ae2aa520f1
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+    - name: CP 13
+      type: ComponentPort
+      primary_uuid: 84d12545-c944-48b2-9839-9d7a51c36ada
+      description : 
+    - name: CP 9
+      type: ComponentPort
+      primary_uuid: 6e998baf-cd0b-4a25-92b0-50f5fc4c3c8f
+      description : 
+    - name: CP 12
+      type: ComponentPort
+      primary_uuid: 28a40446-eade-4b48-9dc7-e903704deed2
+      description : 
+    - name: CP 10
+      type: ComponentPort
+      primary_uuid: 9e776dc6-08bd-4820-a331-b25c3eddbdf5
+      description : 
+      - name: NPI_Levels.CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: b18f7e4d-30ba-46eb-89e4-f160cfe11ec9
+        description : 
+        applied property value groups:
+          - name: CompLevelExtension
+            ref_uuid : ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 50804c9f-bd0d-4662-b73f-3acee5974304
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 50804c9f-bd0d-4662-b73f-3acee5974304
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+      - name: Vehicle Mass
+        type: PropertyValueGroup
+        primary_uuid: ac470522-29e1-4945-8503-dc1a38c1032e
+        description : 
+        property value groups:
+        property values:
+        - name: Req ID
+          ref_uuid: uuid : 6085078b-8015-4498-b4b0-b538e86fd5e5
+        - name: Units
+          ref_uuid: uuid : bbb00a38-0beb-4b04-8871-1b7f2be6b60d
+        - name: Value
+          ref_uuid: uuid : 1d03902d-30fb-4cb0-8a59-77c4481b520d
+      - name: CompLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: ada47c82-35fc-4785-9c2c-3f3f9df2e573
+        description : [CLASS]http://www.polarsys.org/capella/core/la/6.0.0/LogicalComponent,http://www.polarsys.org/capella/core/pa/6.0.0/PhysicalComponent[/CLASS]
+[ARCHITECTURE]LOGICAL;PHYSICAL[/ARCHITECTURE]
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 84e41ca3-7b59-471a-b18d-567d19978fd6
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 453560db-75fb-43a1-b27c-99dabd0e4743
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : d529032c-99a7-48e7-aee8-647399e240c7
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: cbc3cae5-1cc9-484a-ad2d-6b8227e88b1c
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : e70a18e7-5d92-48fd-8807-e20a19453e37
+    - name: Mechanical Rotation
+      type: FunctionalExchange
+      primary_uuid: 07999910-d04f-4516-b7e8-f426bb704be7
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: ae88061a-4042-409e-afbb-b3b6b58b8203
+      target function or activity:
+          - name: FIP 2
+            ref_uuid: 12278b60-6364-4960-8e28-8109e7ca07a7
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: a787a771-812b-4c97-8842-b397ecde06b4
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 14546476-951f-451b-b973-873aa4ca5b7e
+    - name: Power
+      type: FunctionalExchange
+      primary_uuid: 6cddf697-194a-41d9-bc04-76884506fbe7
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: 69b29426-8796-4f8c-832f-69cb46719e79
+      target function or activity:
+          - name: FIP 1
+            ref_uuid: 5362fb36-f84c-462d-b3e3-063201cb0957
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 5c760b02-bcff-468d-b8c9-f46c0b9340d6
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 8a3dcd16-174b-4328-a93b-bc1169430194
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 6ff6536b-8a27-4e29-9fb1-4e3869775952
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : cf852d08-9446-4558-a7b1-de95a9df074c
+    - name: FIP 1
+      type: FunctionInputPort
+      primary_uuid: 5362fb36-f84c-462d-b3e3-063201cb0957
+      description : 
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: ae88061a-4042-409e-afbb-b3b6b58b8203
+      description : 
+    - name: Cool Fluid
+      type: FunctionalExchange
+      primary_uuid: 08f6ce67-cb8c-4f17-ad3c-9d76e38a8b22
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: b647df53-45a8-482b-b749-c5aa6591462a
+      target function or activity:
+          - name: FIP 1
+            ref_uuid: 256f0271-93ae-4a74-a624-a48639f2f9bd
+      involving functional chains:
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: bf6ffdde-7a41-4d45-a101-00f53f202895
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 861acb30-d898-4730-bb69-b65d07554ca5
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 961a2f87-a2bb-4f22-b491-56c07afc4da2
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 76b7b58b-5762-4831-9769-28a051c52fa7
+    - name: Cool Fluid
+      type: FunctionalExchange
+      primary_uuid: a98ea407-818c-4ed2-9d96-a94ce837c384
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: 229f1e97-e129-4c97-a5d7-d6f13acddb7f
+      target function or activity:
+          - name: FIP 1
+            ref_uuid: 75c63121-88c9-4653-aced-f00284c4020f
+      involving functional chains:
+        - name: Warm Battery
+          ref_uuid : 6c79f937-1f1d-47b2-b086-9b596df5f8a1
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: c627564d-873b-48df-b9b1-a81fea865884
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : d5263628-075d-4762-9e8e-6111fc1032b9
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 00968c5d-57ee-4713-a866-0aca6f9f47f9
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 3a79a695-7acf-4e11-b245-291089e88b05
+    - name: FIP 1
+      type: FunctionInputPort
+      primary_uuid: 256f0271-93ae-4a74-a624-a48639f2f9bd
+      description : 
+    - name: FIP 2
+      type: FunctionInputPort
+      primary_uuid: 12278b60-6364-4960-8e28-8109e7ca07a7
+      description : 
+    - name: FIP 3
+      type: FunctionInputPort
+      primary_uuid: c56749ae-ac7e-4f4c-b236-2fe8b7af162b
+      description : 
+    - name: Warm Fluid
+      type: FunctionalExchange
+      primary_uuid: 3ff89675-b660-48d0-92a2-3e3668c0d97a
+      description : 
+      source function or activity:
+          - name: FOP 2
+            ref_uuid: 31111264-50fe-49d5-85d5-24297925b2da
+      target function or activity:
+          - name: FIP 3
+            ref_uuid: c56749ae-ac7e-4f4c-b236-2fe8b7af162b
+      involving functional chains:
+        - name: Warm Battery
+          ref_uuid : 6c79f937-1f1d-47b2-b086-9b596df5f8a1
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: 229f1e97-e129-4c97-a5d7-d6f13acddb7f
+      description : 
+    - name: Heat
+      type: FunctionalExchange
+      primary_uuid: c354be11-41d9-41a1-8607-deffa78537d9
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: f11a6d91-52f0-48b4-a50f-7b76c0d47e66
+      target function or activity:
+          - name: FIP 3
+            ref_uuid: d4940315-e693-4d3f-9d3f-e668248e76c3
+      involving functional chains:
+        - name: Warm Battery
+          ref_uuid : 6c79f937-1f1d-47b2-b086-9b596df5f8a1
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 00620418-7a62-4548-9610-a1a97f7054d2
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : d1f99b78-cb9f-4a0b-96d0-776f7e39d9a8
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 80699189-7c9a-451d-9d7b-425e405a9ab6
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : a02117d2-e9bb-432e-95c1-9007e25c64e9
+    - name: FIP 1
+      type: FunctionInputPort
+      primary_uuid: 75c63121-88c9-4653-aced-f00284c4020f
+      description : 
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: f11a6d91-52f0-48b4-a50f-7b76c0d47e66
+      description : 
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 020958fb-fd24-4e4e-a02b-75d756f28e10
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 90e9e6c2-5fa9-4508-8f88-b9ead292080a
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: ee341ad2-a36e-445c-ab0a-c913735a655a
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 3207c5bf-a4da-4c14-9bdd-3ed722bb0708
+    - name: Heat
+      type: FunctionalExchange
+      primary_uuid: cbc31c22-53bc-424a-abdc-dcac050e870b
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: 38ae2e37-48fa-469c-9a38-51a0c10dab20
+      target function or activity:
+          - name: FIP 2
+            ref_uuid: e744731c-da3c-4a6f-856d-fe08074f844a
+      involving functional chains:
+        - name: Warm Battery
+          ref_uuid : 6c79f937-1f1d-47b2-b086-9b596df5f8a1
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 417bb0d3-3549-4133-9065-ed78f714b1a9
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 455ddad9-5eb9-4457-a34c-855ef3b3952e
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: f332d158-abaf-4c26-a12f-19bdad9e391d
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 789f11f3-1ea5-4717-812d-71f6bd8e0eac
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: 38ae2e37-48fa-469c-9a38-51a0c10dab20
+      description : 
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: 69b29426-8796-4f8c-832f-69cb46719e79
+      description : 
+    - name: Hat Fluid
+      type: FunctionalExchange
+      primary_uuid: fab81dd4-f440-42b4-887b-8447c90ad3f1
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: 641c6d44-df55-4bd4-b585-273d299a3082
+      target function or activity:
+          - name: FIP 1
+            ref_uuid: eac35814-6dd5-44d3-a06c-ac183e19e1ea
+      involving functional chains:
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 35ff8b4d-dcff-4206-8063-192b4fb1e51a
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : cba8866f-9074-434d-bf57-445e6c965ce9
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: c3c13e7c-bf0e-4d4f-97c4-e0285abf85d8
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 47565982-9c00-4f2e-9dbf-4f27b202efaf
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: a360a271-e514-471c-9875-0370e50db9fc
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 810c9e68-0f62-4b15-98f9-4b1430112c9c
+    - name: FIP 2
+      type: FunctionInputPort
+      primary_uuid: e744731c-da3c-4a6f-856d-fe08074f844a
+      description : 
+    - name: FIP 3
+      type: FunctionInputPort
+      primary_uuid: d4940315-e693-4d3f-9d3f-e668248e76c3
+      description : 
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: 641c6d44-df55-4bd4-b585-273d299a3082
+      description : 
+    - name: FOP 2
+      type: FunctionOutputPort
+      primary_uuid: 31111264-50fe-49d5-85d5-24297925b2da
+      description : 
+      - name: Wall Thickness
+        type: PropertyValueGroup
+        primary_uuid: d15a5ea3-ee27-46e9-bf8a-0d52ea49e620
+        description : 
+        property value groups:
+        property values:
+        - name: Units
+          ref_uuid: uuid : f6f799ed-5444-458f-8eea-aed8ac0b5ce6
+        - name: Value
+          ref_uuid: uuid : 2ab5a247-92fb-4576-87d0-2e819d8576a8
+    - name: Cool Air
+      type: FunctionalExchange
+      primary_uuid: f1d8c4e0-e71c-457f-b3a1-32467b316cf2
+      description : 
+      source function or activity:
+          - name: FOP 1
+            ref_uuid: 25437aad-4833-48d0-97a2-58209cbb13cf
+      target function or activity:
+          - name: FIP 2
+            ref_uuid: 7053fd0a-e922-4353-8be5-811810aa9ca4
+    - name: Hot Air
+      type: FunctionalExchange
+      primary_uuid: aa70305e-82db-4314-92b6-3a80e6e08771
+      description : 
+      source function or activity:
+          - name: FOP 2
+            ref_uuid: a311b01e-9973-470d-9bbd-2a40766c5b19
+      target function or activity:
+          - name: FIP 1
+            ref_uuid: 294bb5f7-cb44-4344-b1f3-9a58f97fad37
+      involving functional chains:
+        - name: Cool Battery
+          ref_uuid : c24cffe2-c772-4280-a94c-380db5b8fce1
+      - name: NPI_Levels.ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: f35cfdb8-a6d5-439c-91dd-b95fed8b1a8d
+        description : 
+        applied property value groups:
+          - name: ExchangeLevelExtension
+            ref_uuid : 094cc7cc-76b0-4487-ac69-eb70206a8428
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 2e13ee7b-8e92-431a-8c73-374d8458f74d
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 5b2aecb9-1c7b-4925-99df-322983e81358
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 6a1d0e9f-1265-462f-a851-094ab4084474
+      - name: Engine_System_Legend.EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 9ffdddb8-690f-43ed-8400-97373311790e
+        description : 
+        applied property value groups:
+          - name: EngineSystemExtension
+            ref_uuid : 0a18af83-674c-43c9-9ef9-f8f22209201f
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : f3d143d2-2566-4fbe-9c9d-1cf272d42bb5
+    - name: FIP 1
+      type: FunctionInputPort
+      primary_uuid: eac35814-6dd5-44d3-a06c-ac183e19e1ea
+      description : 
+    - name: FIP 2
+      type: FunctionInputPort
+      primary_uuid: 7053fd0a-e922-4353-8be5-811810aa9ca4
+      description : 
+    - name: FOP 1
+      type: FunctionOutputPort
+      primary_uuid: b647df53-45a8-482b-b749-c5aa6591462a
+      description : 
+    - name: FOP 2
+      type: FunctionOutputPort
+      primary_uuid: a311b01e-9973-470d-9bbd-2a40766c5b19
+      description : 
+      - name: Req ID
+        type: StringPropertyValue
+        primary_uuid: 6085078b-8015-4498-b4b0-b538e86fd5e5
+        description : 
+        value :  DP-1632
+      - name: Units
+        type: StringPropertyValue
+        primary_uuid: bbb00a38-0beb-4b04-8871-1b7f2be6b60d
+        description : 
+        value :  kg
+      - name: Value
+        type: FloatPropertyValue
+        primary_uuid: 1d03902d-30fb-4cb0-8a59-77c4481b520d
+        description : 
+        value :  0.0
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 84e41ca3-7b59-471a-b18d-567d19978fd6
+      description : This is the NPI Level of the Componemt
+      - name: ExchangeLevelExtension
+        type: PropertyValueGroup
+        primary_uuid: 094cc7cc-76b0-4487-ac69-eb70206a8428
+        description : [CLASS]http://www.polarsys.org/capella/core/fa/6.0.0/ComponentExchange[/CLASS]
+[ARCHITECTURE]LOGICAL;PHYSICAL[/ARCHITECTURE]
+        property value groups:
+        property values:
+        - name: Level
+          ref_uuid: uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: d529032c-99a7-48e7-aee8-647399e240c7
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+      - name: EngineSystemExtension
+        type: PropertyValueGroup
+        primary_uuid: 0a18af83-674c-43c9-9ef9-f8f22209201f
+        description : [CLASS]http://www.polarsys.org/capella/core/fa/6.0.0/ComponentExchange[/CLASS]
+[ARCHITECTURE]PHYSICAL;LOGICAL[/ARCHITECTURE]
+        property value groups:
+        property values:
+        - name: Energy Flows
+          ref_uuid: uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: e70a18e7-5d92-48fd-8807-e20a19453e37
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 14546476-951f-451b-b973-873aa4ca5b7e
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 8a3dcd16-174b-4328-a93b-bc1169430194
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: cf852d08-9446-4558-a7b1-de95a9df074c
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 861acb30-d898-4730-bb69-b65d07554ca5
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 76b7b58b-5762-4831-9769-28a051c52fa7
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: d5263628-075d-4762-9e8e-6111fc1032b9
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 3a79a695-7acf-4e11-b245-291089e88b05
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: d1f99b78-cb9f-4a0b-96d0-776f7e39d9a8
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: a02117d2-e9bb-432e-95c1-9007e25c64e9
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 90e9e6c2-5fa9-4508-8f88-b9ead292080a
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 3207c5bf-a4da-4c14-9bdd-3ed722bb0708
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 455ddad9-5eb9-4457-a34c-855ef3b3952e
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 789f11f3-1ea5-4717-812d-71f6bd8e0eac
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: cba8866f-9074-434d-bf57-445e6c965ce9
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 47565982-9c00-4f2e-9dbf-4f27b202efaf
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 810c9e68-0f62-4b15-98f9-4b1430112c9c
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+      - name: Units
+        type: StringPropertyValue
+        primary_uuid: f6f799ed-5444-458f-8eea-aed8ac0b5ce6
+        description : 
+        value :  mm
+      - name: Value
+        type: FloatPropertyValue
+        primary_uuid: 2ab5a247-92fb-4576-87d0-2e819d8576a8
+        description : 
+        value :  2.0
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 2e13ee7b-8e92-431a-8c73-374d8458f74d
+      description : 
+      applied property values:
+        - name: Level
+        ref_uuid : 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 6a1d0e9f-1265-462f-a851-094ab4084474
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: f3d143d2-2566-4fbe-9c9d-1cf272d42bb5
+      description : 
+      applied property values:
+        - name: Energy Flows
+        ref_uuid : 1e600651-9cef-42b9-92ed-aa3914a5274a
+    - name: Level
+      type: EnumerationPropertyValue
+      primary_uuid: 4c3d4d6e-a0b3-439b-9465-7298e76ef6e0
+      description : This is the NPI Level of the Exchange.
+    - name: Energy Flows
+      type: EnumerationPropertyValue
+      primary_uuid: 1e600651-9cef-42b9-92ed-aa3914a5274a
+      description : 
