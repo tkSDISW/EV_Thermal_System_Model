@@ -895,7 +895,8 @@
           </ownedComponentExchangeFunctionalExchangeAllocations>
         </ownedComponentExchanges>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-            id="a2da5b5b-7409-40b6-bf87-5ff510c4a96d" name="Vehicle" appliedPropertyValueGroups="#9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af #2db0ec2a-9b2b-455b-945b-7352389c0d52">
+            id="a2da5b5b-7409-40b6-bf87-5ff510c4a96d" name="Vehicle" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Serves as a high-level aggregation of various subsystems and components, forming a cohesive system intended for transportation and functionality integration.&lt;/span>&lt;/p>&#xA;"
+            appliedPropertyValueGroups="#9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af #2db0ec2a-9b2b-455b-945b-7352389c0d52">
           <ownedExtensions xsi:type="smw:TcItemRevision" id="28287eb5-ea8c-4172-97fa-0578bc98d2a6"
               tcuid="QWpd81fq4nxmPD" stableTcId="A6td81fq4nxmPD" itemId="195309" revisionId="A"/>
           <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
@@ -908,7 +909,7 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="bbb00a38-0beb-4b04-8871-1b7f2be6b60d" name="Units" value="kg"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="1d03902d-30fb-4cb0-8a59-77c4481b520d" name="Value"/>
+                  id="1d03902d-30fb-4cb0-8a59-77c4481b520d" name="Value" value="1525.0"/>
             </ownedPropertyValueGroups>
           </ownedPropertyValueGroups>
           <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
@@ -991,7 +992,7 @@
             </ownedComponentExchangeFunctionalExchangeAllocations>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="03e7f060-d6dd-436c-aa67-de6d0dda1ecb" name="Mech" appliedPropertyValueGroups="#a787a771-812b-4c97-8842-b397ecde06b4"
+              id="03e7f060-d6dd-436c-aa67-de6d0dda1ecb" name="Mech" appliedPropertyValueGroups="#a787a771-812b-4c97-8842-b397ecde06b4 #6989ef5b-9b94-4228-acbb-4aba88b5b795"
               source="#2124fe2a-1c4b-4e8b-97e4-73e66f6a4b4d" target="#aa97779d-be7f-4899-8fab-07094a0792b0"
               kind="FLOW">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="00ac411a-1db5-4f1c-be07-c19767a24428"
@@ -1003,6 +1004,13 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
                   id="14546476-951f-451b-b973-873aa4ca5b7e" name="Level" appliedPropertyValues="#4c3d4d6e-a0b3-439b-9465-7298e76ef6e0"
                   type="#2328fe25-4f09-4862-8d1a-864fb1393648" value="#6d17f9e2-d284-49e4-8ab6-a81a3daf0f1b"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="6989ef5b-9b94-4228-acbb-4aba88b5b795" name="Engine_System_Legend.EngineSystemExtension"
+                appliedPropertyValueGroups="#0a18af83-674c-43c9-9ef9-f8f22209201f">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
+                  id="d9b263b4-8d87-438f-9c31-02dcb6580a14" name="Energy Flows" appliedPropertyValues="#1e600651-9cef-42b9-92ed-aa3914a5274a"
+                  type="#d73ac375-96ce-4970-b545-45a2095383d2" value="#e47009e9-c04a-44fa-8059-ac7efc38699f"/>
             </ownedPropertyValueGroups>
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="6ac8d999-737a-4363-a81c-a4f89f5ca70f" targetElement="#07999910-d04f-4516-b7e8-f426bb704be7"
@@ -1220,7 +1228,8 @@
               id="7b17b065-9550-434e-9003-9889d8477881" targetElement="#00d364bd-9ded-41e4-a22d-d1d8d19eea57"
               sourceElement="#a2da5b5b-7409-40b6-bf87-5ff510c4a96d"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="adf89ebc-6944-4c2d-a6fc-42b558260391" name="Electric Motor" appliedPropertyValueGroups="#48142ce1-7e6e-4393-9481-cd9d5733d446">
+              id="adf89ebc-6944-4c2d-a6fc-42b558260391" name="Electric Motor" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Converts electrical energy into mechanical rotation, providing propulsion or mechanical power to various systems in the vehicle.&lt;/span>&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://siemensnam.sharepoint.com/:x:/r/teams/disw_IS2022Tutorial-ModellingSystemsofSystemsWithoutDrowning/Shared%20Documents/General/Requirements/Electric%20Motor%20Requirements.xlsx?d=wf712cfb6535d4014bf0be5ecb0ac5910&amp;amp;csf=1&amp;amp;web=1&amp;amp;e=XqfrGK&quot;>Electric Motor Excel.&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#48142ce1-7e6e-4393-9481-cd9d5733d446">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="2d246d55-3c01-4f99-adf9-5aa90b8df3de"
                 tcuid="QWvd81fq4nxmPD" stableTcId="A_jd81fq4nxmPD" itemId="195312"
                 revisionId="A"/>
@@ -1275,7 +1284,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="0c6a042e-a23a-42fb-a7c0-d8744e130f49" name="Pump" appliedPropertyValueGroups="#29938280-cb82-4f12-a8f0-eb54fa5f00e2">
+              id="0c6a042e-a23a-42fb-a7c0-d8744e130f49" name="Pump" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Facilitates the movement of fluid within the vehicle&amp;#39;s cooling or hydraulic systems to ensure optimal performance and heat management.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#29938280-cb82-4f12-a8f0-eb54fa5f00e2">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="767877c7-30b4-413c-a118-0501bab30976"
                 tcuid="QWnd81fq4nxmPD" stableTcId="A6rd81fq4nxmPD" itemId="195308"
                 revisionId="A"/>
@@ -1330,7 +1340,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="1d103d59-bbcb-472f-9f64-b50ba23305b8" name="PTC Heater" appliedPropertyValueGroups="#4b55e54d-359f-421a-8eb7-b35d3997ec05">
+              id="1d103d59-bbcb-472f-9f64-b50ba23305b8" name="PTC Heater" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Produces heat for the vehicle&amp;#39;s thermal management system, ensuring optimal operating temperatures for components and systems.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#4b55e54d-359f-421a-8eb7-b35d3997ec05">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="ef2d3413-b804-49dd-b4e4-784c0051063f"
                 tcuid="QWrd81fq4nxmPD" stableTcId="A6vd81fq4nxmPD" itemId="195310"
                 revisionId="A"/>
@@ -1373,7 +1384,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="0c373481-f3da-4ad0-a4ad-f324e74e9abc" name="Battery Pack" appliedPropertyValueGroups="#a7346810-900b-408c-aa32-f3034c38a34e">
+              id="0c373481-f3da-4ad0-a4ad-f324e74e9abc" name="Battery Pack" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Stores and provides electrical energy to power the vehicle&amp;#39;s electric motor and other systems, while also being involved in heat generation and absorption.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#a7346810-900b-408c-aa32-f3034c38a34e">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="0c39655d-3e09-4d24-8d8e-b9f6aa3ab24b"
                 tcuid="Qatd81fq4nxmPD" stableTcId="QChd81fq4nxmPD" itemId="195315"
                 revisionId="A"/>
@@ -1428,7 +1440,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0" name="Hydaulic Cooling" appliedPropertyValueGroups="#81bf727d-a44f-4209-99a2-6c4f85399cc1 #df9de9c7-4213-440a-bb18-1fd509faf382 #631afdec-8793-4200-a13d-2197856edf43">
+              id="407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0" name="Hydaulic Cooling" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Manages the transfer of heat away from critical components through a fluid medium, maintaining the vehicle&amp;#39;s thermal stability.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#81bf727d-a44f-4209-99a2-6c4f85399cc1 #631afdec-8793-4200-a13d-2197856edf43">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="6b224307-38fe-42e0-b8c2-da507f37a2e9"
                 tcuid="Qahd81fq4nxmPD" stableTcId="A_ld81fq4nxmPD" itemId="195313"
                 revisionId="A"/>
@@ -1442,8 +1455,6 @@
                     id="2ab5a247-92fb-4576-87d0-2e819d8576a8" name="Value" value="2.0"/>
               </ownedPropertyValueGroups>
             </ownedPropertyValueGroups>
-            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-                id="df9de9c7-4213-440a-bb18-1fd509faf382" name="Hydraulic Low"/>
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="631afdec-8793-4200-a13d-2197856edf43" name="NPI_Levels.CompLevelExtension"
                 appliedPropertyValueGroups="#ada47c82-35fc-4785-9c2c-3f3f9df2e573">
@@ -1501,7 +1512,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="794bd7a7-2e0d-43e5-9a3e-4f561eaa8184" name="Radiator" appliedPropertyValueGroups="#ae3ab6ee-345f-4706-83be-737e62a5e290">
+              id="794bd7a7-2e0d-43e5-9a3e-4f561eaa8184" name="Radiator" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Dissipates excess heat from the coolant, transferring it to the surrounding air to prevent overheating of the vehicle&amp;#39;s systems.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#ae3ab6ee-345f-4706-83be-737e62a5e290">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="69f0ad06-9549-499a-bdc0-dbc995e34355"
                 tcuid="Qevd81fq4nxmPD" stableTcId="QGjd81fq4nxmPD" itemId="195316"
                 revisionId="A"/>
@@ -1568,7 +1580,8 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="9245a581-dd85-48d8-8d49-954e083675d5" name="Chassis" appliedPropertyValueGroups="#b18f7e4d-30ba-46eb-89e4-f160cfe11ec9">
+              id="9245a581-dd85-48d8-8d49-954e083675d5" name="Chassis" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Forms the structural framework of the vehicle, supporting and integrating various components and ensuring mechanical integrity.&lt;/span>&lt;/p>&#xA;"
+              appliedPropertyValueGroups="#b18f7e4d-30ba-46eb-89e4-f160cfe11ec9">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="fac5dd39-732b-4ad9-b3d5-ea97cbe9782e"
                 tcuid="QWtd81fq4nxmPD" stableTcId="A_hd81fq4nxmPD" itemId="195311"
                 revisionId="A"/>
@@ -1606,8 +1619,8 @@
           </ownedLogicalComponents>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-            id="14264fd0-837b-4250-be19-3719999bded6" name="Environment" appliedPropertyValueGroups="#730e1a51-839f-47d3-b7a6-781c75e0b614"
-            actor="true">
+            id="14264fd0-837b-4250-be19-3719999bded6" name="Environment" description="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>Refers to the air and external conditions surrounding the vehicle, involved in ambient air provision and heat absorption to assist in cooling mechanisms.&lt;/span>&lt;/p>&#xA;"
+            appliedPropertyValueGroups="#730e1a51-839f-47d3-b7a6-781c75e0b614" actor="true">
           <ownedExtensions xsi:type="smw:TcItemRevision" id="07bd13d9-0299-49d5-9142-696ca6324205"
               tcuid="Qapd81fq4nxmPD" stableTcId="A_td81fq4nxmPD" itemId="195314" revisionId="A"/>
           <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
