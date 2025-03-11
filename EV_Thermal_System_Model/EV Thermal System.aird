@@ -32,7 +32,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_nOUPsPT_Ee-tNdPV7L9Ywg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t8JZoPT_Ee-tNdPV7L9Ywg" name="[LAB] Thermal System" repPath="#_t8HkcPT_Ee-tNdPV7L9Ywg" changeId="1741651398032">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t8JZoPT_Ee-tNdPV7L9Ywg" name="[LAB] Thermal System" repPath="#_t8HkcPT_Ee-tNdPV7L9Ywg" changeId="1741700744183">
         <eAnnotations xmi:type="description:DAnnotation" uid="_t8PgQPT_Ee-tNdPV7L9Ywg" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8PgQfT_Ee-tNdPV7L9Ywg" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8PgQvT_Ee-tNdPV7L9Ywg" key="hide.computed.physical.links.filter" value="true"/>
@@ -44,7 +44,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="EV%20Thermal%20System.capella#1cab5d11-30bc-446c-989d-6710823b456b"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tWOWMPUMEe-t-deGxGcRqA" name="[LAB] Thermal System Hydaulic View" repPath="#_tWL58vUMEe-t-deGxGcRqA" changeId="1741655152420">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tWOWMPUMEe-t-deGxGcRqA" name="[LAB] Thermal System Hydaulic View" repPath="#_tWL58vUMEe-t-deGxGcRqA" changeId="1741700744184">
         <eAnnotations xmi:type="description:DAnnotation" uid="_tWL58PUMEe-t-deGxGcRqA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tWXgIPUMEe-t-deGxGcRqA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tWXgIfUMEe-t-deGxGcRqA" key="hide.computed.physical.links.filter" value="true"/>
@@ -80,7 +80,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="EV%20Thermal%20System.capella#1cab5d11-30bc-446c-989d-6710823b456b"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_knnCYPrBEe-Y7efaPn_hoA" name="[LAB] Electric Motor Requirements" repPath="#_knlNMPrBEe-Y7efaPn_hoA" changeId="1741633063358">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_knnCYPrBEe-Y7efaPn_hoA" name="[LAB] Electric Motor Requirements" repPath="#_knlNMPrBEe-Y7efaPn_hoA" changeId="1741700759926">
         <eAnnotations xmi:type="description:DAnnotation" uid="_kntwEPrBEe-Y7efaPn_hoA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kntwEfrBEe-Y7efaPn_hoA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kntwEvrBEe-Y7efaPn_hoA" key="hide.computed.physical.links.filter" value="true"/>
@@ -11160,173 +11160,173 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-RTUvrBEe-Y7efaPn_hoA" x="10" y="60" width="10" height="10"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_l99xUfrBEe-Y7efaPn_hoA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l99xUvrBEe-Y7efaPn_hoA" x="150" y="70"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l99xUvrBEe-Y7efaPn_hoA" x="430" y="130"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_XPanUPrDEe-Y7efaPn_hoA" type="2003" element="_XNf7wPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_XPbOYPrDEe-Y7efaPn_hoA" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XPb1cPrDEe-Y7efaPn_hoA" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_XPb1c_rDEe-Y7efaPn_hoA" type="3010" element="_XNi_GPrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_XPb1dPrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_XPb1dfrDEe-Y7efaPn_hoA"/>
+        <children xmi:type="notation:Node" xmi:id="_1CtaBP5-Ee-MJ86Px1buuw" type="2003" element="_1A6qQP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_1CtaB_5-Ee-MJ86Px1buuw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_1CtaCP5-Ee-MJ86Px1buuw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_1CtaC_5-Ee-MJ86Px1buuw" type="3010" element="_1BD0PP5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_1CtaDP5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1CtaDf5-Ee-MJ86Px1buuw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_XPccgPrDEe-Y7efaPn_hoA" type="3010" element="_XNjmIPrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_XPccgfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_XPccgvrDEe-Y7efaPn_hoA"/>
+            <children xmi:type="notation:Node" xmi:id="_1CtaDv5-Ee-MJ86Px1buuw" type="3010" element="_1BD0Pv5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_1CtaD_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1CtaEP5-Ee-MJ86Px1buuw"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XPb1cfrDEe-Y7efaPn_hoA"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XPb1cvrDEe-Y7efaPn_hoA"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_1CtaCf5-Ee-MJ86Px1buuw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_1CtaCv5-Ee-MJ86Px1buuw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XPanUfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XPanUvrDEe-Y7efaPn_hoA" x="-170" y="-1" width="120" height="74"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1CtaBf5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1CtaBv5-Ee-MJ86Px1buuw" x="110" y="50"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_Yi7doPrDEe-Y7efaPn_hoA" type="2003" element="_Yg8goPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_Yi7do_rDEe-Y7efaPn_hoA" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_Yi7dpPrDEe-Y7efaPn_hoA" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_Yi8EsPrDEe-Y7efaPn_hoA" type="3010" element="_Yg-V3frDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_Yi8EsfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Yi8EsvrDEe-Y7efaPn_hoA"/>
+        <children xmi:type="notation:Node" xmi:id="_21C6WP5-Ee-MJ86Px1buuw" type="2003" element="_2zjskP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_21C6W_5-Ee-MJ86Px1buuw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_21C6XP5-Ee-MJ86Px1buuw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_21KPEP5-Ee-MJ86Px1buuw" type="3010" element="_2zjso_5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_21KPEf5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_21KPEv5-Ee-MJ86Px1buuw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_Yi8Es_rDEe-Y7efaPn_hoA" type="3010" element="_Yg-V3_rDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_Yi8EtPrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Yi8EtfrDEe-Y7efaPn_hoA"/>
+            <children xmi:type="notation:Node" xmi:id="_21KPE_5-Ee-MJ86Px1buuw" type="3010" element="_2zjspf5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_21KPFP5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_21KPFf5-Ee-MJ86Px1buuw"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_Yi7dpfrDEe-Y7efaPn_hoA"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_Yi7dpvrDEe-Y7efaPn_hoA"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_21C6Xf5-Ee-MJ86Px1buuw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_21C6Xv5-Ee-MJ86Px1buuw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Yi7dofrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yi7dovrDEe-Y7efaPn_hoA" x="-170" y="80" width="123" height="73"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_21C6Wf5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21C6Wv5-Ee-MJ86Px1buuw" x="113" y="140"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_ZQmb8PrDEe-Y7efaPn_hoA" type="2003" element="_ZOtlkPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_ZQmb8_rDEe-Y7efaPn_hoA" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_ZQmb9PrDEe-Y7efaPn_hoA" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_ZQmb9_rDEe-Y7efaPn_hoA" type="3010" element="_ZOwB0PrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_ZQmb-PrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZQmb-frDEe-Y7efaPn_hoA"/>
+        <children xmi:type="notation:Node" xmi:id="_4m6gnP5-Ee-MJ86Px1buuw" type="2003" element="_4larwP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_4m6gn_5-Ee-MJ86Px1buuw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_4m6goP5-Ee-MJ86Px1buuw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_4m6go_5-Ee-MJ86Px1buuw" type="3010" element="_4lar1_5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_4m6gpP5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4m6gpf5-Ee-MJ86Px1buuw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_ZQnDAPrDEe-Y7efaPn_hoA" type="3010" element="_ZOwB0vrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_ZQnDAfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZQnDAvrDEe-Y7efaPn_hoA"/>
+            <children xmi:type="notation:Node" xmi:id="_4m6gpv5-Ee-MJ86Px1buuw" type="3010" element="_4lar2f5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_4m6gp_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4m6gqP5-Ee-MJ86Px1buuw"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_ZQmb9frDEe-Y7efaPn_hoA"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQmb9vrDEe-Y7efaPn_hoA"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_4m6gof5-Ee-MJ86Px1buuw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_4m6gov5-Ee-MJ86Px1buuw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQmb8frDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQmb8vrDEe-Y7efaPn_hoA" x="-170" y="170" width="123" height="63"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4m6gnf5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4m6gnv5-Ee-MJ86Px1buuw" x="120" y="220"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_Z-HCMPrDEe-Y7efaPn_hoA" type="2003" element="_Z8SdQPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_Z-HpQPrDEe-Y7efaPn_hoA" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_Z-HpQfrDEe-Y7efaPn_hoA" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_Z-HpRPrDEe-Y7efaPn_hoA" type="3010" element="_Z8UShvrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_Z-HpRfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z-HpRvrDEe-Y7efaPn_hoA"/>
+        <children xmi:type="notation:Node" xmi:id="_5lpZwP5-Ee-MJ86Px1buuw" type="2003" element="_5kJk4P5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_5lpZw_5-Ee-MJ86Px1buuw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_5lpZxP5-Ee-MJ86Px1buuw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_5lpZx_5-Ee-MJ86Px1buuw" type="3010" element="_5kJk-_5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_5lpZyP5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5lpZyf5-Ee-MJ86Px1buuw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_Z-HpR_rDEe-Y7efaPn_hoA" type="3010" element="_Z8U5gPrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_Z-HpSPrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z-HpSfrDEe-Y7efaPn_hoA"/>
+            <children xmi:type="notation:Node" xmi:id="_5lpZyv5-Ee-MJ86Px1buuw" type="3010" element="_5kJk_f5-Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_5lpZy_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5lpZzP5-Ee-MJ86Px1buuw"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_Z-HpQvrDEe-Y7efaPn_hoA"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_Z-HpQ_rDEe-Y7efaPn_hoA"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5lpZxf5-Ee-MJ86Px1buuw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5lpZxv5-Ee-MJ86Px1buuw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Z-HCMfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-HCMvrDEe-Y7efaPn_hoA" x="-170" y="-90"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5lpZwf5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5lpZwv5-Ee-MJ86Px1buuw" x="130" y="310"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_dzaf0PrDEe-Y7efaPn_hoA" type="2003" element="_dxqMUPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_dzaf0_rDEe-Y7efaPn_hoA" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_dzaf1PrDEe-Y7efaPn_hoA" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_dzbG4PrDEe-Y7efaPn_hoA" type="3010" element="_dxsBgvrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_dzbG4frDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_dzbG4vrDEe-Y7efaPn_hoA"/>
+        <children xmi:type="notation:Node" xmi:id="_Cioi0P5_Ee-MJ86Px1buuw" type="2003" element="_ChDOcP5_Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_Cioi0_5_Ee-MJ86Px1buuw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Cioi1P5_Ee-MJ86Px1buuw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Cioi1_5_Ee-MJ86Px1buuw" type="3010" element="_ChFqsf5_Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Cioi2P5_Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Cioi2f5_Ee-MJ86Px1buuw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_dzbG4_rDEe-Y7efaPn_hoA" type="3010" element="_dxsBhPrDEe-Y7efaPn_hoA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_dzbG5PrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_dzbG5frDEe-Y7efaPn_hoA"/>
+            <children xmi:type="notation:Node" xmi:id="_Cioi2v5_Ee-MJ86Px1buuw" type="3010" element="_ChFqs_5_Ee-MJ86Px1buuw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Cioi2_5_Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Cioi3P5_Ee-MJ86Px1buuw"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_dzaf1frDEe-Y7efaPn_hoA"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_dzaf1vrDEe-Y7efaPn_hoA"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Cioi1f5_Ee-MJ86Px1buuw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Cioi1v5_Ee-MJ86Px1buuw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_dzaf0frDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzaf0vrDEe-Y7efaPn_hoA" x="-172" y="250" width="124" height="63"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Cioi0f5_Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cioi0v5_Ee-MJ86Px1buuw" x="121" y="420"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_knsh8vrBEe-Y7efaPn_hoA"/>
-        <edges xmi:type="notation:Edge" xmi:id="_XPccg_rDEe-Y7efaPn_hoA" type="4001" element="_XN0E0PrDEe-Y7efaPn_hoA" source="_l99xUPrBEe-Y7efaPn_hoA" target="_XPanUPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_XPcch_rDEe-Y7efaPn_hoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XPcciPrDEe-Y7efaPn_hoA" x="54" y="6"/>
+        <edges xmi:type="notation:Edge" xmi:id="_1CtaEf5-Ee-MJ86Px1buuw" type="4001" element="_1BNlMP5-Ee-MJ86Px1buuw" source="_l99xUPrBEe-Y7efaPn_hoA" target="_1CtaBP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_1CtaFf5-Ee-MJ86Px1buuw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1CtaFv5-Ee-MJ86Px1buuw" x="-11" y="-6"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_XPccifrDEe-Y7efaPn_hoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XPccivrDEe-Y7efaPn_hoA" x="3" y="-7"/>
+          <children xmi:type="notation:Node" xmi:id="_1CtaF_5-Ee-MJ86Px1buuw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1CtaGP5-Ee-MJ86Px1buuw" x="35" y="12"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_XPcci_rDEe-Y7efaPn_hoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XPccjPrDEe-Y7efaPn_hoA" x="-48" y="2"/>
+          <children xmi:type="notation:Node" xmi:id="_1CtaGf5-Ee-MJ86Px1buuw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1CtaGv5-Ee-MJ86Px1buuw" y="11"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XPcchPrDEe-Y7efaPn_hoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_XPcchfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XPcchvrDEe-Y7efaPn_hoA" points="[-74, -16, 294, 60]$[-276, -57, 92, 19]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XPdDkPrDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XPdDkfrDEe-Y7efaPn_hoA" id="(0.2245762711864407,0.4027777777777778)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1CtaEv5-Ee-MJ86Px1buuw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1CtaE_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1CtaFP5-Ee-MJ86Px1buuw" points="[-74, -20, 253, 65]$[-259, -68, 68, 17]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1CtaG_5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1CtaHP5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Yi8EtvrDEe-Y7efaPn_hoA" type="4001" element="_YhR31PrDEe-Y7efaPn_hoA" source="_l99xUPrBEe-Y7efaPn_hoA" target="_Yi7doPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_Yi8EuvrDEe-Y7efaPn_hoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yi8Eu_rDEe-Y7efaPn_hoA" x="23" y="6"/>
+        <edges xmi:type="notation:Edge" xmi:id="_21KPFv5-Ee-MJ86Px1buuw" type="4001" element="_2z2nhP5-Ee-MJ86Px1buuw" source="_l99xUPrBEe-Y7efaPn_hoA" target="_21C6WP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_21KPGv5-Ee-MJ86Px1buuw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21KPG_5-Ee-MJ86Px1buuw" x="5" y="-7"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Yi8EvPrDEe-Y7efaPn_hoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yi8EvfrDEe-Y7efaPn_hoA" x="-21" y="-3"/>
+          <children xmi:type="notation:Node" xmi:id="_21KPHP5-Ee-MJ86Px1buuw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21KPHf5-Ee-MJ86Px1buuw" y="10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Yi8EvvrDEe-Y7efaPn_hoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yi8Ev_rDEe-Y7efaPn_hoA" x="-16"/>
+          <children xmi:type="notation:Node" xmi:id="_21KPHv5-Ee-MJ86Px1buuw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21KPH_5-Ee-MJ86Px1buuw" x="1" y="12"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Yi8Et_rDEe-Y7efaPn_hoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Yi8EuPrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yi8EufrDEe-Y7efaPn_hoA" points="[-74, 1, 273, -4]$[-273, 3, 74, -2]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yi8rwPrDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yi8rwfrDEe-Y7efaPn_hoA" id="(0.3925619834710744,0.4084507042253521)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_21KPF_5-Ee-MJ86Px1buuw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_21KPGP5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_21KPGf5-Ee-MJ86Px1buuw" points="[-74, 1, 270, -4]$[-296, 4, 48, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_21KPIP5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_21KPIf5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_ZQnDA_rDEe-Y7efaPn_hoA" type="4001" element="_ZPBHmPrDEe-Y7efaPn_hoA" source="_l99xUPrBEe-Y7efaPn_hoA" target="_ZQmb8PrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_ZQnDB_rDEe-Y7efaPn_hoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQnDCPrDEe-Y7efaPn_hoA" x="-2" y="11"/>
+        <edges xmi:type="notation:Edge" xmi:id="_4m6gqf5-Ee-MJ86Px1buuw" type="4001" element="_4ltmuP5-Ee-MJ86Px1buuw" source="_l99xUPrBEe-Y7efaPn_hoA" target="_4m6gnP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_4m6grf5-Ee-MJ86Px1buuw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4m6grv5-Ee-MJ86Px1buuw" x="3" y="-4"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_ZQnDCfrDEe-Y7efaPn_hoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQnDCvrDEe-Y7efaPn_hoA" x="7" y="1"/>
+          <children xmi:type="notation:Node" xmi:id="_4m6gr_5-Ee-MJ86Px1buuw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4m6gsP5-Ee-MJ86Px1buuw" y="8"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_ZQnDC_rDEe-Y7efaPn_hoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQnDDPrDEe-Y7efaPn_hoA" x="8" y="5"/>
+          <children xmi:type="notation:Node" xmi:id="_4m6gsf5-Ee-MJ86Px1buuw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4m6gsv5-Ee-MJ86Px1buuw" x="-4" y="10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZQnDBPrDEe-Y7efaPn_hoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_ZQnDBfrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZQnDBvrDEe-Y7efaPn_hoA" points="[-74, 20, 271, -75]$[-273, 75, 72, -20]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZQnDDfrDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZQnDDvrDEe-Y7efaPn_hoA" id="(0.4049586776859504,0.47540983606557374)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4m6gqv5-Ee-MJ86Px1buuw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4m6gq_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4m6grP5-Ee-MJ86Px1buuw" points="[-74, 18, 261, -67]$[-286, 72, 49, -13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4m6gs_5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4m6gtP5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Z-IQUPrDEe-Y7efaPn_hoA" type="4001" element="_Z8l_TPrDEe-Y7efaPn_hoA" source="_l99xUPrBEe-Y7efaPn_hoA" target="_Z-HCMPrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_Z-IQVPrDEe-Y7efaPn_hoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-IQVfrDEe-Y7efaPn_hoA" x="4" y="9"/>
+        <edges xmi:type="notation:Edge" xmi:id="_5lpZzf5-Ee-MJ86Px1buuw" type="4001" element="_5kTV7P5-Ee-MJ86Px1buuw" source="_l99xUPrBEe-Y7efaPn_hoA" target="_5lpZwP5-Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_5lpZ0f5-Ee-MJ86Px1buuw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5lpZ0v5-Ee-MJ86Px1buuw" x="1" y="-3"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Z-IQVvrDEe-Y7efaPn_hoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-IQV_rDEe-Y7efaPn_hoA" x="17" y="-5"/>
+          <children xmi:type="notation:Node" xmi:id="_5lpZ0_5-Ee-MJ86Px1buuw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5lpZ1P5-Ee-MJ86Px1buuw" x="-3" y="9"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Z-IQWPrDEe-Y7efaPn_hoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-IQWfrDEe-Y7efaPn_hoA" x="21" y="1"/>
+          <children xmi:type="notation:Node" xmi:id="_5lpZ1f5-Ee-MJ86Px1buuw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5lpZ1v5-Ee-MJ86Px1buuw" x="-7" y="8"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Z-IQUfrDEe-Y7efaPn_hoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Z-IQUvrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z-IQU_rDEe-Y7efaPn_hoA" points="[-70, -34, 265, 131]$[-276, -136, 59, 29]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z-IQWvrDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z-IQW_rDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5lpZzv5-Ee-MJ86Px1buuw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5lpZz_5-Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5lpZ0P5-Ee-MJ86Px1buuw" points="[-62, 34, 253, -141]$[-263, 146, 52, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5lpZ1_5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5lpZ2P5-Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_dzbG5vrDEe-Y7efaPn_hoA" type="4001" element="_dx9HUPrDEe-Y7efaPn_hoA" source="_l99xUPrBEe-Y7efaPn_hoA" target="_dzaf0PrDEe-Y7efaPn_hoA">
-          <children xmi:type="notation:Node" xmi:id="_dzbG6vrDEe-Y7efaPn_hoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzbG6_rDEe-Y7efaPn_hoA" x="-4" y="9"/>
+        <edges xmi:type="notation:Edge" xmi:id="_CipJ4P5_Ee-MJ86Px1buuw" type="4001" element="_ChU7UP5_Ee-MJ86Px1buuw" source="_l99xUPrBEe-Y7efaPn_hoA" target="_Cioi0P5_Ee-MJ86Px1buuw">
+          <children xmi:type="notation:Node" xmi:id="_CipJ5P5_Ee-MJ86Px1buuw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CipJ5f5_Ee-MJ86Px1buuw" x="10" y="-4"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_dzbG7PrDEe-Y7efaPn_hoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzbG7frDEe-Y7efaPn_hoA" x="13" y="4"/>
+          <children xmi:type="notation:Node" xmi:id="_CipJ5v5_Ee-MJ86Px1buuw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CipJ5_5_Ee-MJ86Px1buuw" x="-7" y="7"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_dzbG7vrDEe-Y7efaPn_hoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzbG7_rDEe-Y7efaPn_hoA" x="11" y="4"/>
+          <children xmi:type="notation:Node" xmi:id="_CipJ6P5_Ee-MJ86Px1buuw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CipJ6f5_Ee-MJ86Px1buuw" x="-6" y="5"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dzbG5_rDEe-Y7efaPn_hoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_dzbG6PrDEe-Y7efaPn_hoA" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzbG6frDEe-Y7efaPn_hoA" points="[-68, 34, 281, -141]$[-292, 146, 57, -29]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzbt8PrDEe-Y7efaPn_hoA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzbt8frDEe-Y7efaPn_hoA" id="(0.38934426229508196,0.47540983606557374)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CipJ4f5_Ee-MJ86Px1buuw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CipJ4v5_Ee-MJ86Px1buuw" fontColor="10062367" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CipJ4_5_Ee-MJ86Px1buuw" points="[-41, 34, 295, -251]$[-302, 256, 34, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CipJ6v5_Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CipJ6_5_Ee-MJ86Px1buuw" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -11340,7 +11340,7 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_l9iTgPrBEe-Y7efaPn_hoA" name="Electric Motor" outgoingEdges="_XN0E0PrDEe-Y7efaPn_hoA _YhR31PrDEe-Y7efaPn_hoA _ZPBHmPrDEe-Y7efaPn_hoA _Z8l_TPrDEe-Y7efaPn_hoA _dx9HUPrDEe-Y7efaPn_hoA">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_l9iTgPrBEe-Y7efaPn_hoA" name="Electric Motor" outgoingEdges="_1BNlMP5-Ee-MJ86Px1buuw _2z2nhP5-Ee-MJ86Px1buuw _4ltmuP5-Ee-MJ86Px1buuw _5kTV7P5-Ee-MJ86Px1buuw _ChU7UP5_Ee-MJ86Px1buuw">
       <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="EV%20Thermal%20System.capella#a499c18e-86bd-4369-a140-049a8f50fa7b"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="EV%20Thermal%20System.capella#a499c18e-86bd-4369-a140-049a8f50fa7b"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="EV%20Thermal%20System.capella#adf89ebc-6944-4c2d-a6fc-42b558260391"/>
@@ -11386,183 +11386,183 @@
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_pgNJAvrBEe-Y7efaPn_hoA" description="_pgNJAPrBEe-Y7efaPn_hoA" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="229,185,181" foregroundColor="255,255,255"/>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XNf7wPrDEe-Y7efaPn_hoA" name="DP-1713" incomingEdges="_XN0E0PrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0223e0f9-b332-47d7-8b20-6c4e98018ddb"/>
-      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0223e0f9-b332-47d7-8b20-6c4e98018ddb"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1A6qQP5-Ee-MJ86Px1buuw" name="DP-1713" incomingEdges="_1BNlMP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#117a43e8-2fb9-4c06-8594-15ad30779f81"/>
+      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#117a43e8-2fb9-4c06-8594-15ad30779f81"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XNf7wfrDEe-Y7efaPn_hoA" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1A6qQf5-Ee-MJ86Px1buuw" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XNi_GPrDEe-Y7efaPn_hoA" name="Requirement">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_1BD0PP5-Ee-MJ86Px1buuw" name="Requirement">
         <target xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
         <semanticElements xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_XNi_GfrDEe-Y7efaPn_hoA" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+        <ownedStyle xmi:type="diagram:Square" uid="_1BD0Pf5-Ee-MJ86Px1buuw" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XNjmIPrDEe-Y7efaPn_hoA" name="Maximum Power Output" tooltipText="Maximum Power Output">
-        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0223e0f9-b332-47d7-8b20-6c4e98018ddb"/>
-        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0223e0f9-b332-47d7-8b20-6c4e98018ddb"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_XNjmIfrDEe-Y7efaPn_hoA" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_1BD0Pv5-Ee-MJ86Px1buuw" name="Maximum Power Output" tooltipText="Maximum Power Output">
+        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#117a43e8-2fb9-4c06-8594-15ad30779f81"/>
+        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#117a43e8-2fb9-4c06-8594-15ad30779f81"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_1BD0P_5-Ee-MJ86Px1buuw" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XN0E0PrDEe-Y7efaPn_hoA" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_XNf7wPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#1d4ad0f4-bd65-4c05-842e-4373b0ea2be4"/>
-      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#1d4ad0f4-bd65-4c05-842e-4373b0ea2be4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XN0r4PrDEe-Y7efaPn_hoA" lineStyle="dash" strokeColor="0,157,181">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1BNlMP5-Ee-MJ86Px1buuw" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_1A6qQP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#60cf1f49-64cd-40f4-912f-9740da3e51b7"/>
+      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#60cf1f49-64cd-40f4-912f-9740da3e51b7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1BNlMf5-Ee-MJ86Px1buuw" lineStyle="dash" strokeColor="0,157,181">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XN0r4frDEe-Y7efaPn_hoA" labelColor="31,138,153"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1BNlMv5-Ee-MJ86Px1buuw" labelColor="31,138,153"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Yg8goPrDEe-Y7efaPn_hoA" name="DP-1717" incomingEdges="_YhR31PrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#aa867c48-325a-48cd-b51a-b05b42b68b5f"/>
-      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#aa867c48-325a-48cd-b51a-b05b42b68b5f"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_2zjskP5-Ee-MJ86Px1buuw" name="DP-1717" incomingEdges="_2z2nhP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#52e60775-15f6-44f1-9239-abd72096160e"/>
+      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#52e60775-15f6-44f1-9239-abd72096160e"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Yg8gofrDEe-Y7efaPn_hoA" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2zjskf5-Ee-MJ86Px1buuw" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Yg-V3frDEe-Y7efaPn_hoA" name="Requirement">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_2zjso_5-Ee-MJ86Px1buuw" name="Requirement">
         <target xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
         <semanticElements xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_Yg-V3vrDEe-Y7efaPn_hoA" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+        <ownedStyle xmi:type="diagram:Square" uid="_2zjspP5-Ee-MJ86Px1buuw" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Yg-V3_rDEe-Y7efaPn_hoA" name="Efficiency" tooltipText="Efficiency">
-        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#aa867c48-325a-48cd-b51a-b05b42b68b5f"/>
-        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#aa867c48-325a-48cd-b51a-b05b42b68b5f"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_Yg-V4PrDEe-Y7efaPn_hoA" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_2zjspf5-Ee-MJ86Px1buuw" name="Efficiency" tooltipText="Efficiency">
+        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#52e60775-15f6-44f1-9239-abd72096160e"/>
+        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#52e60775-15f6-44f1-9239-abd72096160e"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_2zjspv5-Ee-MJ86Px1buuw" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YhR31PrDEe-Y7efaPn_hoA" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_Yg8goPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#fa63d1da-34b3-48c0-9e79-0705cf9c0a8e"/>
-      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#fa63d1da-34b3-48c0-9e79-0705cf9c0a8e"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_YhR31frDEe-Y7efaPn_hoA" lineStyle="dash" strokeColor="0,157,181">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2z2nhP5-Ee-MJ86Px1buuw" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_2zjskP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#6e1bd238-7463-4d7a-801b-462b5d8eebe5"/>
+      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#6e1bd238-7463-4d7a-801b-462b5d8eebe5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2z2nhf5-Ee-MJ86Px1buuw" lineStyle="dash" strokeColor="0,157,181">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_YhR31vrDEe-Y7efaPn_hoA" labelColor="31,138,153"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2z2nhv5-Ee-MJ86Px1buuw" labelColor="31,138,153"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ZOtlkPrDEe-Y7efaPn_hoA" name="DP-1715" incomingEdges="_ZPBHmPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#afc3b23b-b1ee-4016-8a53-8189d9a5e408"/>
-      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#afc3b23b-b1ee-4016-8a53-8189d9a5e408"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4larwP5-Ee-MJ86Px1buuw" name="DP-1715" incomingEdges="_4ltmuP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#e6e3d96c-f5b6-481d-8854-f7d28f926908"/>
+      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#e6e3d96c-f5b6-481d-8854-f7d28f926908"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZOtlkfrDEe-Y7efaPn_hoA" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4larwf5-Ee-MJ86Px1buuw" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ZOwB0PrDEe-Y7efaPn_hoA" name="Requirement">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4lar1_5-Ee-MJ86Px1buuw" name="Requirement">
         <target xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
         <semanticElements xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_ZOwB0frDEe-Y7efaPn_hoA" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+        <ownedStyle xmi:type="diagram:Square" uid="_4lar2P5-Ee-MJ86Px1buuw" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ZOwB0vrDEe-Y7efaPn_hoA" name="Maximum Torque" tooltipText="Maximum Torque">
-        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#afc3b23b-b1ee-4016-8a53-8189d9a5e408"/>
-        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#afc3b23b-b1ee-4016-8a53-8189d9a5e408"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_ZOwB0_rDEe-Y7efaPn_hoA" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4lar2f5-Ee-MJ86Px1buuw" name="Maximum Torque" tooltipText="Maximum Torque">
+        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#e6e3d96c-f5b6-481d-8854-f7d28f926908"/>
+        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#e6e3d96c-f5b6-481d-8854-f7d28f926908"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_4lar2v5-Ee-MJ86Px1buuw" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZPBHmPrDEe-Y7efaPn_hoA" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_ZOtlkPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#4acbdf60-878b-4514-87fb-acf9d0751ced"/>
-      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#4acbdf60-878b-4514-87fb-acf9d0751ced"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZPBHmfrDEe-Y7efaPn_hoA" lineStyle="dash" strokeColor="0,157,181">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4ltmuP5-Ee-MJ86Px1buuw" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_4larwP5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#612653b1-d82b-49be-8a11-f3d66e496cb0"/>
+      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#612653b1-d82b-49be-8a11-f3d66e496cb0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4ltmuf5-Ee-MJ86Px1buuw" lineStyle="dash" strokeColor="0,157,181">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZPBHmvrDEe-Y7efaPn_hoA" labelColor="31,138,153"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4ltmuv5-Ee-MJ86Px1buuw" labelColor="31,138,153"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Z8SdQPrDEe-Y7efaPn_hoA" name="DP-1716" incomingEdges="_Z8l_TPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#baa531b4-d633-4bec-9522-b3518c704d34"/>
-      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#baa531b4-d633-4bec-9522-b3518c704d34"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_5kJk4P5-Ee-MJ86Px1buuw" name="DP-1716" incomingEdges="_5kTV7P5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#ae9497d3-b4e9-4655-ae44-24fcfd7bf43b"/>
+      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#ae9497d3-b4e9-4655-ae44-24fcfd7bf43b"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Z8SdQfrDEe-Y7efaPn_hoA" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5kJk4f5-Ee-MJ86Px1buuw" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Z8UShvrDEe-Y7efaPn_hoA" name="Requirement">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_5kJk-_5-Ee-MJ86Px1buuw" name="Requirement">
         <target xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
         <semanticElements xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_Z8USh_rDEe-Y7efaPn_hoA" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+        <ownedStyle xmi:type="diagram:Square" uid="_5kJk_P5-Ee-MJ86Px1buuw" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Z8U5gPrDEe-Y7efaPn_hoA" name="Maximum Revolution" tooltipText="Maximum Revolution">
-        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#baa531b4-d633-4bec-9522-b3518c704d34"/>
-        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#baa531b4-d633-4bec-9522-b3518c704d34"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_Z8U5gfrDEe-Y7efaPn_hoA" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_5kJk_f5-Ee-MJ86Px1buuw" name="Maximum Revolution" tooltipText="Maximum Revolution">
+        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#ae9497d3-b4e9-4655-ae44-24fcfd7bf43b"/>
+        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#ae9497d3-b4e9-4655-ae44-24fcfd7bf43b"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_5kJk_v5-Ee-MJ86Px1buuw" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Z8l_TPrDEe-Y7efaPn_hoA" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_Z8SdQPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#30f92cba-347a-4c6d-bb4a-eceda247bd17"/>
-      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#30f92cba-347a-4c6d-bb4a-eceda247bd17"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Z8l_TfrDEe-Y7efaPn_hoA" lineStyle="dash" strokeColor="0,157,181">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5kTV7P5-Ee-MJ86Px1buuw" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_5kJk4P5-Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#8c957c16-8f34-4d17-9a78-83670d4abf1d"/>
+      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#8c957c16-8f34-4d17-9a78-83670d4abf1d"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5kTV7f5-Ee-MJ86Px1buuw" lineStyle="dash" strokeColor="0,157,181">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Z8l_TvrDEe-Y7efaPn_hoA" labelColor="31,138,153"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5kTV7v5-Ee-MJ86Px1buuw" labelColor="31,138,153"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_dxqMUPrDEe-Y7efaPn_hoA" name="DP-1720" incomingEdges="_dx9HUPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#7523dcf7-06b6-4cd6-a341-e1defb0f27e6"/>
-      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#7523dcf7-06b6-4cd6-a341-e1defb0f27e6"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ChDOcP5_Ee-MJ86Px1buuw" name="DP-1714" incomingEdges="_ChU7UP5_Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0b565f6e-20e5-4d87-bddd-0b299f8ca685"/>
+      <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0b565f6e-20e5-4d87-bddd-0b299f8ca685"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dxqMUfrDEe-Y7efaPn_hoA" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ChDOcf5_Ee-MJ86Px1buuw" labelColor="31,138,153" borderSize="1" borderSizeComputationExpression="1" borderColor="0,157,181" backgroundColor="181,218,222" foregroundColor="181,218,222">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_dxsBgvrDEe-Y7efaPn_hoA" name="Requirement">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ChFqsf5_Ee-MJ86Px1buuw" name="Requirement">
         <target xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
         <semanticElements xmi:type="traceability:ArtifactType" href="EV%20Thermal%20System.traceability#8fd239ad-6fe6-432c-8ac4-7de8be5da2e3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_dxsBg_rDEe-Y7efaPn_hoA" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+        <ownedStyle xmi:type="diagram:Square" uid="_ChFqsv5_Ee-MJ86Px1buuw" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='Types']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_dxsBhPrDEe-Y7efaPn_hoA" name="Cost:" tooltipText="Cost:">
-        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#7523dcf7-06b6-4cd6-a341-e1defb0f27e6"/>
-        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#7523dcf7-06b6-4cd6-a341-e1defb0f27e6"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_dxsBhfrDEe-Y7efaPn_hoA" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ChFqs_5_Ee-MJ86Px1buuw" name="Cost" tooltipText="Cost">
+        <target xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0b565f6e-20e5-4d87-bddd-0b299f8ca685"/>
+        <semanticElements xmi:type="traceability:Artifact" href="EV%20Thermal%20System.traceability#0b565f6e-20e5-4d87-bddd-0b299f8ca685"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ChFqtP5_Ee-MJ86Px1buuw" showIcon="false" labelColor="31,138,153" labelAlignment="LEFT" borderColor="0,157,181" labelPosition="node" color="181,218,222">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@containerMappings[name='fr.obeo.dsl.traceability.capella.layer.artifact']/@subNodeMappings[name='ArtefactContent']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dx9HUPrDEe-Y7efaPn_hoA" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_dxqMUPrDEe-Y7efaPn_hoA">
-      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#0bb2680a-7d8d-4733-8eee-3720b3081ca4"/>
-      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#0bb2680a-7d8d-4733-8eee-3720b3081ca4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dx9HUfrDEe-Y7efaPn_hoA" lineStyle="dash" strokeColor="0,157,181">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ChU7UP5_Ee-MJ86Px1buuw" name="satisfies" sourceNode="_l9iTgPrBEe-Y7efaPn_hoA" targetNode="_ChDOcP5_Ee-MJ86Px1buuw">
+      <target xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#3854296c-b83f-41d1-b3e2-206f27ae6250"/>
+      <semanticElements xmi:type="traceability:Link" href="EV%20Thermal%20System.traceability#3854296c-b83f-41d1-b3e2-206f27ae6250"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ChViUP5_Ee-MJ86Px1buuw" lineStyle="dash" strokeColor="0,157,181">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dx9HUvrDEe-Y7efaPn_hoA" labelColor="31,138,153"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ChViUf5_Ee-MJ86Px1buuw" labelColor="31,138,153"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.traceability.capella.design/description/traceability.odesign#//@ownedViewpoints[name='fr.obeo.dsl.traceability.capella.vp']/@ownedRepresentationExtensions[name='CapellaViepoints']/@layers[name='fr.obeo.dsl.traceability.capella.layer']/@edgeMappings[name='fr.obeo.dsl.traceability.capella.layer.outgoing.link']"/>
     </ownedDiagramElements>
