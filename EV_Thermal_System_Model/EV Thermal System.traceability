@@ -95,6 +95,19 @@
           <modelObject href="EV%20Thermal%20System.capella#adf89ebc-6944-4c2d-a6fc-42b558260391"/>
         </ownedLinks>
       </ownedArtifacts>
+      <ownedArtifacts xsi:type="traceability:Artifact" types="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" title="Environmental Adaptability" url="https://polarion.diswx.com/polarion/oslc/services/projects/drivepilot/workitems/DP-1712" identifier="DP-1712" id="6eebcc00-bd78-44fc-b2f8-f1b7645dd5e8">
+        <ownedLinks xsi:type="traceability:Link" type="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifact="6eebcc00-bd78-44fc-b2f8-f1b7645dd5e8" id="271bd3b5-1c3d-4bd4-a6d2-7e631d2879d4">
+          <modelObject href="EV%20Thermal%20System.capella#adf89ebc-6944-4c2d-a6fc-42b558260391"/>
+        </ownedLinks>
+      </ownedArtifacts>
+      <ownedArtifacts xsi:type="traceability:Artifact" types="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" title="Maximum Torque" url="https://polarion.diswx.com/polarion/oslc/services/projects/drivepilot/workitems/DP-1718" identifier="DP-1718" id="d395da0b-aa70-474c-88ed-321b5df41d58">
+        <ownedLinks xsi:type="traceability:Link" type="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifact="d395da0b-aa70-474c-88ed-321b5df41d58" id="7304f903-e6fa-4b71-b11b-fa55e16f1f98">
+          <modelObject href="EV%20Thermal%20System.capella#4f02589c-d150-4a49-934f-efe26a60640e"/>
+        </ownedLinks>
+        <ownedLinks xsi:type="traceability:Link" type="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifact="d395da0b-aa70-474c-88ed-321b5df41d58" id="a5839d40-71e6-40e5-8dbf-24abbd32e366">
+          <modelObject href="EV%20Thermal%20System.capella#9245a581-dd85-48d8-8d49-954e083675d5"/>
+        </ownedLinks>
+      </ownedArtifacts>
     </store>
     <snapshots>
       <linksByModelObjectId key="a2da5b5b-7409-40b6-bf87-5ff510c4a96d">
