@@ -12,3 +12,4 @@ openai
 #requests
 capellambse_context_diagrams
 cairosvg
+juypter-ui-poll
