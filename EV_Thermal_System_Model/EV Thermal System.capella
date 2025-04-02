@@ -2052,6 +2052,46 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="9707f21f-fc45-4ef3-82ae-17a3adac36e5" name="Control Motor">
+            <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+                id="cf9e6639-55fa-4818-8d07-bf79c2827683" name="Closed Loop Control">
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="a1d35d43-1d26-4318-beb5-b8c0bbfa4089" involved="#0d7ac630-facc-452a-996e-f267dde4943a"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="24edb454-cf82-49e9-be8b-bbdbeac437fd" involved="#2d77a7e2-79a8-423a-b343-41e0eee0fd81"
+                  source="#a1d35d43-1d26-4318-beb5-b8c0bbfa4089" target="#5bc2a46b-158d-4f41-89e5-3b42163e7447"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="5bc2a46b-158d-4f41-89e5-3b42163e7447" involved="#120db22e-d5bd-455c-9871-e62c6ec08eb8"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="bfd10fca-c414-4401-ba7b-8152c39c8e3b" involved="#898acba3-e92f-46fe-a209-4c60d6f552cf"
+                  source="#c2400c8c-6207-4157-a256-0ea3a73eb2bd" target="#f5bcc0e5-42a4-463e-9d93-9a075249e8fb"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="f5bcc0e5-42a4-463e-9d93-9a075249e8fb" involved="#403987a4-0ecd-4cac-a137-f5abbf0629f1"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="c2400c8c-6207-4157-a256-0ea3a73eb2bd" involved="#17c22a0f-6656-401c-a251-325486de7906"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="8a549ebf-9fb9-4d74-98bf-60d92bec683f" involved="#63012614-1ca6-4954-905d-0a6efa37ba23"
+                  source="#c2400c8c-6207-4157-a256-0ea3a73eb2bd" target="#9b2fcd00-2d9e-4ede-a12d-0da0ee8b6fec"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="9b2fcd00-2d9e-4ede-a12d-0da0ee8b6fec" involved="#a771aa17-3938-49ba-b891-a88eb7466169"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="7714b8f0-1ce4-449d-82b7-6416cbc6082e" involved="#ed256354-472f-49fd-83cd-0586b3774a83"
+                  source="#5bc2a46b-158d-4f41-89e5-3b42163e7447" target="#c2400c8c-6207-4157-a256-0ea3a73eb2bd"/>
+            </ownedFunctionalChains>
+            <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+                id="f4a4d577-a07c-4852-bd99-5cd538af9dbc" name="Coolant Leak Detection">
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="0d7a5dd1-7837-4df3-9e44-95710ba08208" involved="#753fcdcc-b323-48a3-8799-9ff87d34a971"
+                  source="#32d3558a-681c-49ec-bc89-7844ea93e021" target="#ffbcec4e-a756-42f7-af14-e8089f4fcc51"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="ffbcec4e-a756-42f7-af14-e8089f4fcc51" involved="#dcfb3bb2-1813-47bc-ad9f-6164f89ee427"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="32d3558a-681c-49ec-bc89-7844ea93e021" involved="#0d7ac630-facc-452a-996e-f267dde4943a"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                  id="2b64279f-54f7-486f-954c-689896777219" involved="#4ebcd8e1-5a88-4511-a804-e8e0ddff5301"
+                  source="#ffbcec4e-a756-42f7-af14-e8089f4fcc51" target="#d5bca8d4-8ac5-4ec0-abf3-1672a4f45494"/>
+              <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                  id="d5bca8d4-8ac5-4ec0-abf3-1672a4f45494" involved="#17c22a0f-6656-401c-a251-325486de7906"/>
+            </ownedFunctionalChains>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                 id="120db22e-d5bd-455c-9871-e62c6ec08eb8" name="Sense Temp">
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"

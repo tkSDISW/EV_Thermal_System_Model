@@ -27,6 +27,14 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#030a2e5a-e14a-42d0-8ff5-8777cd9cbb44"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_za6BAA_dEfCJEe7SJmD2BA" name="[PFCD] Closed Loop Control" repPath="#_za4y4A_dEfCJEe7SJmD2BA" changeId="1743610590226">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']"/>
+        <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__ok3wA_dEfCJEe7SJmD2BA" name="[PFCD] Coolant Leak Detection" repPath="#__ojpoA_dEfCJEe7SJmD2BA" changeId="1743610658748">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']"/>
+        <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_nNODgPT_Ee-tNdPV7L9Ywg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
@@ -106,7 +114,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg" href="EV%20Thermal%20System.capella#3bcb122f-0265-4e7d-92c3-af35b6c0a1c7"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-NK6sA8iEfCJEe7SJmD2BA" name="[PAB] Physical Node Diagram with BC" repPath="#_-NH3YA8iEfCJEe7SJmD2BA" changeId="1743609520600">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-NK6sA8iEfCJEe7SJmD2BA" name="[PAB] Physical Node Diagram with BC" repPath="#_-NH3YA8iEfCJEe7SJmD2BA" changeId="1743610418129">
         <eAnnotations xmi:type="description:DAnnotation" uid="_-NHQUA8iEfCJEe7SJmD2BA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-NRoYA8iEfCJEe7SJmD2BA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-NRoYQ8iEfCJEe7SJmD2BA" key="hide.computed.physical.links.filter" value="true"/>
@@ -133,7 +141,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponent" href="EV%20Thermal%20System.capella#4f91193f-2287-4d8a-8cee-39c62037cc5b"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_aDnwAA_aEfCJEe7SJmD2BA" name="[PDFB] Control Motor" repPath="#_aDlTwA_aEfCJEe7SJmD2BA" changeId="1743609229372">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_aDnwAA_aEfCJEe7SJmD2BA" name="[PDFB] Control Motor" repPath="#_aDlTwA_aEfCJEe7SJmD2BA" changeId="1743610690426">
         <eAnnotations xmi:type="description:DAnnotation" uid="_b3mPEA_aEfCJEe7SJmD2BA" source="http://www.polarsys.org/capella/dannotation/ContextualElements">
           <references xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#9707f21f-fc45-4ef3-82ae-17a3adac36e5"/>
         </eAnnotations>
@@ -18089,7 +18097,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_6RKOgA_aEfCJEe7SJmD2BA" type="4001" element="_6QECZA_aEfCJEe7SJmD2BA" source="_wwrsUA9iEfCJEe7SJmD2BA" target="_6Q9aNA_aEfCJEe7SJmD2BA">
           <children xmi:type="notation:Node" xmi:id="_6RKOhA_aEfCJEe7SJmD2BA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6RKOhQ_aEfCJEe7SJmD2BA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6RKOhQ_aEfCJEe7SJmD2BA" x="3" y="-34"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_6RKOhg_aEfCJEe7SJmD2BA" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6RKOhw_aEfCJEe7SJmD2BA" y="10"/>
@@ -23510,6 +23518,50 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_b4FXUg_aEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b4FXUw_aEfCJEe7SJmD2BA" x="90" y="240"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_qULGAA_dEfCJEe7SJmD2BA" type="2001" element="_qTqvsA_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_qULtEA_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qULtEQ_dEfCJEe7SJmD2BA" x="21" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qULtFw_dEfCJEe7SJmD2BA" type="3003" element="_qTqvsQ_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qULtGA_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qULtGQ_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qULGAQ_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qULGAg_dEfCJEe7SJmD2BA" x="1060" y="250" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qULtEg_dEfCJEe7SJmD2BA" type="2001" element="_qTqvsw_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_qULtFQ_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qULtFg_dEfCJEe7SJmD2BA" x="21" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qULtGg_dEfCJEe7SJmD2BA" type="3003" element="_qTqvtA_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qULtGw_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qULtHA_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qULtEw_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qULtFA_dEfCJEe7SJmD2BA" x="1030" y="307" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_t4ao0A_dEfCJEe7SJmD2BA" type="2001" element="_t2ZPkA_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_t4ao0w_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t4ao1A_dEfCJEe7SJmD2BA" x="21" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4bP4A_dEfCJEe7SJmD2BA" type="3003" element="_t2ZPkQ_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t4bP4Q_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP4g_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t4ao0Q_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4ao0g_dEfCJEe7SJmD2BA" x="1011" y="370" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5amSkA_dEfCJEe7SJmD2BA" type="2001" element="_5YqY4A_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_5amSkw_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5amSlA_dEfCJEe7SJmD2BA" x="21" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5am5oA_dEfCJEe7SJmD2BA" type="3003" element="_5YqY4Q_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5am5oQ_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5am5og_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5amSkQ_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5amSkg_dEfCJEe7SJmD2BA" x="992" y="410" width="20" height="20"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_aDplMg_aEfCJEe7SJmD2BA"/>
         <edges xmi:type="notation:Edge" xmi:id="_b5z1ng_aEfCJEe7SJmD2BA" type="4001" element="_b3uLAA_aEfCJEe7SJmD2BA" source="_b4xTwA_aEfCJEe7SJmD2BA" target="_b5fsgA_aEfCJEe7SJmD2BA">
           <children xmi:type="notation:Node" xmi:id="_b5z1og_aEfCJEe7SJmD2BA" type="6001">
@@ -23539,7 +23591,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_mkLtlA_aEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_mkLtlQ_aEfCJEe7SJmD2BA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mkLtlg_aEfCJEe7SJmD2BA" points="[5, -1, -293, 17]$[293, -18, -5, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mkLtlg_aEfCJEe7SJmD2BA" points="[5, -1, -298, 17]$[298, -18, -5, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mkMUpg_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mkMUpw_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
         </edges>
@@ -23555,7 +23607,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_m5--dA_aEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_m5--dQ_aEfCJEe7SJmD2BA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m5--dg_aEfCJEe7SJmD2BA" points="[5, -2, -363, 76]$[363, -77, -5, 1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m5--dg_aEfCJEe7SJmD2BA" points="[5, -2, -368, 76]$[368, -77, -5, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m5_lhA_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m5_lhQ_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
         </edges>
@@ -23571,7 +23623,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_nvylFA_aEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_nvylFQ_aEfCJEe7SJmD2BA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nvylFg_aEfCJEe7SJmD2BA" points="[-5, 5, 147, -184]$[-148, 184, 4, -5]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nvylFg_aEfCJEe7SJmD2BA" points="[-5, 5, 147, -178]$[-148, 178, 4, -5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nvzMIA_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nvzMIQ_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
         </edges>
@@ -23587,7 +23639,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_oGIohA_aEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_oGIohQ_aEfCJEe7SJmD2BA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oGIohg_aEfCJEe7SJmD2BA" points="[4, -5, -103, 115]$[102, -115, -5, 5]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oGIohg_aEfCJEe7SJmD2BA" points="[4, -5, -98, 115]$[97, -115, -5, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oGJPlA_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oGJPlQ_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
         </edges>
@@ -23623,6 +23675,70 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qRwLig_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qRwLiw_aEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_t4bP4w_dEfCJEe7SJmD2BA" type="4001" element="_t2n5EA_dEfCJEe7SJmD2BA" source="_o0_5ow_aEfCJEe7SJmD2BA" target="_nvtFgA_aEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_t4bP5w_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP6A_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4bP6Q_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP6g_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4bP6w_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP7A_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_t4bP5A_dEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_t4bP5Q_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t4bP5g_dEfCJEe7SJmD2BA" points="[3, 5, -29, -42]$[28, 42, -4, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4bP7Q_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4bP7g_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_t4bP7w_dEfCJEe7SJmD2BA" type="4001" element="_t2ogIA_dEfCJEe7SJmD2BA" source="_m57UEA_aEfCJEe7SJmD2BA" target="_o02vsA_aEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_t4bP8w_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP9A_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4bP9Q_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP9g_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4bP9w_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4bP-A_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_t4bP8A_dEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_t4bP8Q_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t4bP8g_dEfCJEe7SJmD2BA" points="[5, 1, -43, -9]$[43, 8, -5, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4bP-Q_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4bP-g_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_t4b3DA_dEfCJEe7SJmD2BA" type="4001" element="_t2ogNA_dEfCJEe7SJmD2BA" source="_o0_5ow_aEfCJEe7SJmD2BA" target="_oGE-IA_aEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_t4b3EA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4b3EQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4b3Eg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4b3Ew_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t4b3FA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4b3FQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_t4b3DQ_dEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_t4b3Dg_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t4b3Dw_dEfCJEe7SJmD2BA" points="[5, 0, -63, -10]$[63, 9, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4b3Fg_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4b3Fw_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5am5ow_dEfCJEe7SJmD2BA" type="4001" element="_5Y63kA_dEfCJEe7SJmD2BA" source="_mkIDMA_aEfCJEe7SJmD2BA" target="_qRcpgA_aEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_5am5pw_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5am5qA_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5am5qQ_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5am5qg_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5am5qw_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5am5rA_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5am5pA_dEfCJEe7SJmD2BA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5am5pQ_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5am5pg_dEfCJEe7SJmD2BA" points="[4, 5, -13, -16]$[12, 16, -5, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5am5rQ_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5am5rg_dEfCJEe7SJmD2BA" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_aD3AkA_aEfCJEe7SJmD2BA" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -23641,7 +23757,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_e7_0MA_aEfCJEe7SJmD2BA" name="Sense Temp">
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#120db22e-d5bd-455c-9871-e62c6ec08eb8"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#120db22e-d5bd-455c-9871-e62c6ec08eb8"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3p5gg_aEfCJEe7SJmD2BA" name="FIP 1" incomingEdges="_b3qggQ_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3p5gg_aEfCJEe7SJmD2BA" name="FIP 1" outgoingEdges="_t2ogIA_dEfCJEe7SJmD2BA" incomingEdges="_b3qggQ_aEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#ecc19322-6a26-4b6d-b246-dea5ac332535"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#ecc19322-6a26-4b6d-b246-dea5ac332535"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_b3qggA_aEfCJEe7SJmD2BA"/>
@@ -23653,7 +23769,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@borderedNodeMappings[name='PDFB_Pin']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ozbMUA_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_ozbMWA_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ozbMUA_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_ozbMWA_aEfCJEe7SJmD2BA" incomingEdges="_t2ogIA_dEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#050f8bb5-ca4a-4c76-8ceb-723b7dafaf2c"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#050f8bb5-ca4a-4c76-8ceb-723b7dafaf2c"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_ozbMUw_aEfCJEe7SJmD2BA"/>
@@ -23673,7 +23789,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gdhRUA_aEfCJEe7SJmD2BA" name="Sense Press">
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#dcfb3bb2-1813-47bc-ad9f-6164f89ee427"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#dcfb3bb2-1813-47bc-ad9f-6164f89ee427"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3qgjg_aEfCJEe7SJmD2BA" name="FIP 2" incomingEdges="_b3qgkg_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3qgjg_aEfCJEe7SJmD2BA" name="FIP 2" outgoingEdges="_5Y63kA_dEfCJEe7SJmD2BA" incomingEdges="_b3qgkg_aEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#7378706c-7a82-4ec9-af67-02730e38ea69"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#7378706c-7a82-4ec9-af67-02730e38ea69"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_b3qgkQ_aEfCJEe7SJmD2BA"/>
@@ -23682,7 +23798,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@borderedNodeMappings[name='PDFB_Pin']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qQAfEA_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_qQBGIw_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qQAfEA_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_qQBGIw_aEfCJEe7SJmD2BA" incomingEdges="_5Y63kA_dEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#9ce005c0-edad-4c72-8266-8ca8ccf5daf0"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#9ce005c0-edad-4c72-8266-8ca8ccf5daf0"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_qQAfEw_aEfCJEe7SJmD2BA"/>
@@ -23702,7 +23818,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_iTGS4A_aEfCJEe7SJmD2BA" name="Deliver control">
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#17c22a0f-6656-401c-a251-325486de7906"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#17c22a0f-6656-401c-a251-325486de7906"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3orUw_aEfCJEe7SJmD2BA" name="FOP 2" outgoingEdges="_b3orWw_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3orUw_aEfCJEe7SJmD2BA" name="FOP 2" outgoingEdges="_b3orWw_aEfCJEe7SJmD2BA" incomingEdges="_t2n5EA_dEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#31500d3b-2e43-4a27-873b-008c26aa69db"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#31500d3b-2e43-4a27-873b-008c26aa69db"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_b3orVg_aEfCJEe7SJmD2BA"/>
@@ -23711,7 +23827,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@borderedNodeMappings[name='PDFB_Pin']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3pSaw_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_b3p5cg_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_b3pSaw_aEfCJEe7SJmD2BA" name="FOP 1" outgoingEdges="_b3p5cg_aEfCJEe7SJmD2BA" incomingEdges="_t2ogNA_dEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#98a65ace-fda2-48dc-a07d-3408c7a158ea"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="EV%20Thermal%20System.capella#98a65ace-fda2-48dc-a07d-3408c7a158ea"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_b3pSbg_aEfCJEe7SJmD2BA"/>
@@ -23720,7 +23836,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@borderedNodeMappings[name='PDFB_Pin']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ozbMVA_aEfCJEe7SJmD2BA" name="FIP 1" incomingEdges="_ozbMWA_aEfCJEe7SJmD2BA" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ozbMVA_aEfCJEe7SJmD2BA" name="FIP 1" outgoingEdges="_t2n5EA_dEfCJEe7SJmD2BA _t2ogNA_dEfCJEe7SJmD2BA" incomingEdges="_ozbMWA_aEfCJEe7SJmD2BA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#2f1ce0ea-e818-44e8-ad68-2a00c28ad28a"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="EV%20Thermal%20System.capella#2f1ce0ea-e818-44e8-ad68-2a00c28ad28a"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_ozbMVw_aEfCJEe7SJmD2BA"/>
@@ -23741,7 +23857,9 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iTGS4Q_aEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iTGS4Q_aEfCJEe7SJmD2BA" borderSize="4" borderSizeComputationExpression="1" borderColor="160,32,240" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+          <customFeatures>borderColor</customFeatures>
+          <customFeatures>borderSize</customFeatures>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']"/>
@@ -23780,7 +23898,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3orUQ_aEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3orUQ_aEfCJEe7SJmD2BA" borderSize="4" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+        <customFeatures>borderColor</customFeatures>
+        <customFeatures>borderSize</customFeatures>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']"/>
@@ -23788,7 +23908,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b3orWw_aEfCJEe7SJmD2BA" name="Heater Control" sourceNode="_b3orUw_aEfCJEe7SJmD2BA" targetNode="_b3orVw_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#898acba3-e92f-46fe-a209-4c60d6f552cf"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#898acba3-e92f-46fe-a209-4c60d6f552cf"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3pSYA_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3pSYA_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b3pSYQ_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b3pSYw_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23829,7 +23951,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3pSaQ_aEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3pSaQ_aEfCJEe7SJmD2BA" borderSize="4" borderSizeComputationExpression="1" borderColor="34,139,34" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+        <customFeatures>borderColor</customFeatures>
+        <customFeatures>borderSize</customFeatures>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']"/>
@@ -23837,7 +23961,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b3p5cg_aEfCJEe7SJmD2BA" name="Motor Control" sourceNode="_b3pSaw_aEfCJEe7SJmD2BA" targetNode="_b3pSbw_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#63012614-1ca6-4954-905d-0a6efa37ba23"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#63012614-1ca6-4954-905d-0a6efa37ba23"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3p5cw_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3p5cw_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b3p5dA_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b3p5dg_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23905,7 +24031,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3p5fA_aEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_b3p5fA_aEfCJEe7SJmD2BA" borderSize="4" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" backgroundColor="244,255,224" foregroundColor="197,255,166">
+        <customFeatures>borderColor</customFeatures>
+        <customFeatures>borderSize</customFeatures>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='PDFB_Function']"/>
@@ -23913,7 +24041,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b3qggQ_aEfCJEe7SJmD2BA" name="Water Temp" sourceNode="_b3p5fg_aEfCJEe7SJmD2BA" targetNode="_b3p5gg_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#2d77a7e2-79a8-423a-b343-41e0eee0fd81"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#2d77a7e2-79a8-423a-b343-41e0eee0fd81"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3qggg_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3qggg_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b3qggw_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b3qghQ_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23924,7 +24054,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b3qgkg_aEfCJEe7SJmD2BA" name="Water Pressure" sourceNode="_b3qgig_aEfCJEe7SJmD2BA" targetNode="_b3qgjg_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#753fcdcc-b323-48a3-8799-9ff87d34a971"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#753fcdcc-b323-48a3-8799-9ff87d34a971"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3qgkw_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3qgkw_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="160,32,240">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b3qglA_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b3qglg_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23935,7 +24067,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b3uLAA_aEfCJEe7SJmD2BA" name="Heat" sourceNode="_b3sVxA_aEfCJEe7SJmD2BA" targetNode="_b3s8zg_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#72b1e55e-e0bd-4018-a156-ade94224b895"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#72b1e55e-e0bd-4018-a156-ade94224b895"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3uLAQ_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b3uLAQ_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="0,0,0">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b3uLAg_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b3uLBA_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23946,7 +24080,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ozbMWA_aEfCJEe7SJmD2BA" name="Temp" sourceNode="_ozbMUA_aEfCJEe7SJmD2BA" targetNode="_ozbMVA_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#ed256354-472f-49fd-83cd-0586b3774a83"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#ed256354-472f-49fd-83cd-0586b3774a83"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ozbMWQ_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ozbMWQ_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_ozbMWg_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ozbMXA_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
@@ -23957,13 +24093,100 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qQBGIw_aEfCJEe7SJmD2BA" name="Press" sourceNode="_qQAfEA_aEfCJEe7SJmD2BA" targetNode="_qQAfFA_aEfCJEe7SJmD2BA" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#4ebcd8e1-5a88-4511-a804-e8e0ddff5301"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#4ebcd8e1-5a88-4511-a804-e8e0ddff5301"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qQBGJA_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qQBGJA_aEfCJEe7SJmD2BA" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="160,32,240">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_qQBGJQ_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qQBGJw_aEfCJEe7SJmD2BA" labelColor="9,92,46"/>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_qQBGJg_aEfCJEe7SJmD2BA" labelColor="255,255,255"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_Exchange']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qTqvsA_dEfCJEe7SJmD2BA" name="Warm Battery" width="2" height="2" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#55c6a979-5a42-44b9-8b75-c2b51b961166"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#55c6a979-5a42-44b9-8b75-c2b51b961166"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_qTqvsQ_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" width="2" height="2" color="24,114,248">
+        <customFeatures>color</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qTqvsw_dEfCJEe7SJmD2BA" name="Cool Battery" width="2" height="2" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#e4553815-42fd-4b33-958d-5c961b0444ef"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#e4553815-42fd-4b33-958d-5c961b0444ef"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_qTqvtA_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" width="2" height="2" color="165,42,42">
+        <customFeatures>color</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_t2ZPkA_dEfCJEe7SJmD2BA" name="Closed Loop Control" width="2" height="2" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_t2ZPkQ_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" width="2" height="2" color="34,139,34">
+        <customFeatures>color</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_5YqY4A_dEfCJEe7SJmD2BA" name="Coolant Leak Detection" width="2" height="2" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_5YqY4Q_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" width="2" height="2" color="160,32,240">
+        <customFeatures>color</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@nodeMappings[name='PDFB_FunctionalChainEnd']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_t2n5EA_dEfCJEe7SJmD2BA" sourceNode="_ozbMVA_aEfCJEe7SJmD2BA" targetNode="_b3orUw_aEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_t2n5EQ_dEfCJEe7SJmD2BA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_t2n5Eg_dEfCJEe7SJmD2BA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_t2ogIA_dEfCJEe7SJmD2BA" sourceNode="_b3p5gg_aEfCJEe7SJmD2BA" targetNode="_ozbMUA_aEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_t2ogIQ_dEfCJEe7SJmD2BA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_t2ogIg_dEfCJEe7SJmD2BA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_t2ogNA_dEfCJEe7SJmD2BA" sourceNode="_ozbMVA_aEfCJEe7SJmD2BA" targetNode="_b3pSaw_aEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_t2pHMA_dEfCJEe7SJmD2BA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="34,139,34">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_t2pHMQ_dEfCJEe7SJmD2BA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5Y63kA_dEfCJEe7SJmD2BA" sourceNode="_b3qgjg_aEfCJEe7SJmD2BA" targetNode="_qQAfEA_aEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5Y63kQ_dEfCJEe7SJmD2BA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="160,32,240">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5Y63kg_dEfCJEe7SJmD2BA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='PDFB_InternLink']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']"/>
     <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
@@ -23973,5 +24196,357 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Data%20Flow%20Blank']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
     <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#9707f21f-fc45-4ef3-82ae-17a3adac36e5"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_za4y4A_dEfCJEe7SJmD2BA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_za9rYA_dEfCJEe7SJmD2BA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_za9rYQ_dEfCJEe7SJmD2BA" type="Sirius" element="_za4y4A_dEfCJEe7SJmD2BA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_zbNjBQ_dEfCJEe7SJmD2BA" type="2001" element="_za-5gw_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbNjCA_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zbNjCQ_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKFQ_dEfCJEe7SJmD2BA" type="3003" element="_za-5hA_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zbOKFg_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKFw_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbNjBg_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbNjBw_dEfCJEe7SJmD2BA" y="60" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zbNjCg_dEfCJEe7SJmD2BA" type="2001" element="_za-5hg_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbNjDQ_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zbNjDg_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKGA_dEfCJEe7SJmD2BA" type="3003" element="_za_gkA_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zbOKGQ_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKGg_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbNjCw_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbNjDA_dEfCJEe7SJmD2BA" x="160" y="110" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zbNjDw_dEfCJEe7SJmD2BA" type="2001" element="_za_gkg_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbNjEg_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zbNjEw_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKGw_dEfCJEe7SJmD2BA" type="3003" element="_za_gkw_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zbOKHA_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKHQ_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbNjEA_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbNjEQ_dEfCJEe7SJmD2BA" x="480" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zbNjFA_dEfCJEe7SJmD2BA" type="2001" element="_za_glQ_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbNjFw_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zbNjGA_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKHg_dEfCJEe7SJmD2BA" type="3003" element="_za_glg_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zbOKHw_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKIA_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbNjFQ_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbNjFg_dEfCJEe7SJmD2BA" x="320" y="60" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zbNjGQ_dEfCJEe7SJmD2BA" type="2001" element="_za_gmA_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbOKEA_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zbOKEQ_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKIQ_dEfCJEe7SJmD2BA" type="3003" element="_za_gmQ_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zbOKIg_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKIw_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbNjGg_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbNjGw_dEfCJEe7SJmD2BA" x="480" y="110" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_za9rYg_dEfCJEe7SJmD2BA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_zbOKMA_dEfCJEe7SJmD2BA" type="4001" element="_zbAHpQ_dEfCJEe7SJmD2BA" source="_zbNjCg_dEfCJEe7SJmD2BA" target="_zbNjFA_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbOKNA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKNQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKNg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKNw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOKOA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOKOQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zbOKMQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zbOKMg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zbOKMw_dEfCJEe7SJmD2BA" points="[0, 0, -60, 55]$[60, -55, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOKOg_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOKOw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zbOxIA_dEfCJEe7SJmD2BA" type="4001" element="_zbAHqg_dEfCJEe7SJmD2BA" source="_zbNjBQ_dEfCJEe7SJmD2BA" target="_zbNjCg_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbOxJA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxJQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxJg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxJw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxKA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxKQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zbOxIQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zbOxIg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zbOxIw_dEfCJEe7SJmD2BA" points="[0, 0, -60, -55]$[60, 55, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxKg_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxKw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zbOxOA_dEfCJEe7SJmD2BA" type="4001" element="_zbAuuQ_dEfCJEe7SJmD2BA" source="_zbNjFA_dEfCJEe7SJmD2BA" target="_zbNjDw_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbOxPA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxPQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxPg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxPw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxQA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxQQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zbOxOQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zbOxOg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zbOxOw_dEfCJEe7SJmD2BA" points="[0, 0, -60, 55]$[60, -55, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxQg_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxQw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zbOxRA_dEfCJEe7SJmD2BA" type="4001" element="_zbAuvg_dEfCJEe7SJmD2BA" source="_zbNjFA_dEfCJEe7SJmD2BA" target="_zbNjGQ_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="_zbOxSA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxSQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxSg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxSw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zbOxTA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbOxTQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zbOxRQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zbOxRg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zbOxRw_dEfCJEe7SJmD2BA" points="[0, 0, -60, -55]$[60, 55, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxTg_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zbOxTw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zbM78A_dEfCJEe7SJmD2BA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_zbM78Q_dEfCJEe7SJmD2BA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_za-5gw_dEfCJEe7SJmD2BA" name="Transfer Heat" outgoingEdges="_zbAHqg_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#a1d35d43-1d26-4318-beb5-b8c0bbfa4089"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#a1d35d43-1d26-4318-beb5-b8c0bbfa4089"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#0d7ac630-facc-452a-996e-f267dde4943a"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_za-5hA_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_za-5hg_dEfCJEe7SJmD2BA" name="Sense Temp" outgoingEdges="_zbAHpQ_dEfCJEe7SJmD2BA" incomingEdges="_zbAHqg_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#5bc2a46b-158d-4f41-89e5-3b42163e7447"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#5bc2a46b-158d-4f41-89e5-3b42163e7447"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#120db22e-d5bd-455c-9871-e62c6ec08eb8"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_za_gkA_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_za_gkg_dEfCJEe7SJmD2BA" name="Produce Heat" incomingEdges="_zbAuuQ_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#f5bcc0e5-42a4-463e-9d93-9a075249e8fb"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#f5bcc0e5-42a4-463e-9d93-9a075249e8fb"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#403987a4-0ecd-4cac-a137-f5abbf0629f1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_za_gkw_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_za_glQ_dEfCJEe7SJmD2BA" name="Deliver control" outgoingEdges="_zbAuuQ_dEfCJEe7SJmD2BA _zbAuvg_dEfCJEe7SJmD2BA" incomingEdges="_zbAHpQ_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#c2400c8c-6207-4157-a256-0ea3a73eb2bd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#c2400c8c-6207-4157-a256-0ea3a73eb2bd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#17c22a0f-6656-401c-a251-325486de7906"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_za_glg_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_za_gmA_dEfCJEe7SJmD2BA" name="Provide Mechanical  Rotation" incomingEdges="_zbAuvg_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#9b2fcd00-2d9e-4ede-a12d-0da0ee8b6fec"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#9b2fcd00-2d9e-4ede-a12d-0da0ee8b6fec"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#a771aa17-3938-49ba-b891-a88eb7466169"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_za_gmQ_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zbAHpQ_dEfCJEe7SJmD2BA" name="Temp" sourceNode="_za-5hg_dEfCJEe7SJmD2BA" targetNode="_za_glQ_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#7714b8f0-1ce4-449d-82b7-6416cbc6082e"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#7714b8f0-1ce4-449d-82b7-6416cbc6082e"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#ed256354-472f-49fd-83cd-0586b3774a83"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zbAHpg_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zbAHpw_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zbAHqg_dEfCJEe7SJmD2BA" name="Water Temp" sourceNode="_za-5gw_dEfCJEe7SJmD2BA" targetNode="_za-5hg_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#24edb454-cf82-49e9-be8b-bbdbeac437fd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#24edb454-cf82-49e9-be8b-bbdbeac437fd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#2d77a7e2-79a8-423a-b343-41e0eee0fd81"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zbAusA_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zbAusQ_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zbAuuQ_dEfCJEe7SJmD2BA" name="Heater Control" sourceNode="_za_glQ_dEfCJEe7SJmD2BA" targetNode="_za_gkg_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#bfd10fca-c414-4401-ba7b-8152c39c8e3b"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#bfd10fca-c414-4401-ba7b-8152c39c8e3b"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#898acba3-e92f-46fe-a209-4c60d6f552cf"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zbAuug_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zbAuuw_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zbAuvg_dEfCJEe7SJmD2BA" name="Motor Control" sourceNode="_za_glQ_dEfCJEe7SJmD2BA" targetNode="_za_gmA_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#8a549ebf-9fb9-4d74-98bf-60d92bec683f"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#8a549ebf-9fb9-4d74-98bf-60d92bec683f"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#63012614-1ca6-4954-905d-0a6efa37ba23"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zbAuvw_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zbAuwA_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@filters[name='hide.association.links.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_za5Z8A_dEfCJEe7SJmD2BA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
+    <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#cf9e6639-55fa-4818-8d07-bf79c2827683"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="__ojpoA_dEfCJEe7SJmD2BA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__omF4A_dEfCJEe7SJmD2BA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="__omF4Q_dEfCJEe7SJmD2BA" type="Sirius" element="__ojpoA_dEfCJEe7SJmD2BA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="__o1WcA_dEfCJEe7SJmD2BA" type="2001" element="__oms8A_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="__o1Wcw_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__o1WdA_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o1Wfw_dEfCJEe7SJmD2BA" type="3003" element="__onUAA_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__o1WgA_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1WgQ_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__o1WcQ_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1Wcg_dEfCJEe7SJmD2BA" x="160" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__o1WdQ_dEfCJEe7SJmD2BA" type="2001" element="__onUAg_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="__o1WeA_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__o1WeQ_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o1Wgg_dEfCJEe7SJmD2BA" type="3003" element="__onUAw_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__o1Wgw_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1WhA_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__o1Wdg_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1Wdw_dEfCJEe7SJmD2BA" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__o1Weg_dEfCJEe7SJmD2BA" type="2001" element="__onUBQ_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="__o1WfQ_dEfCJEe7SJmD2BA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__o1Wfg_dEfCJEe7SJmD2BA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o1WhQ_dEfCJEe7SJmD2BA" type="3003" element="__onUBg_dEfCJEe7SJmD2BA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__o1Whg_dEfCJEe7SJmD2BA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1Whw_dEfCJEe7SJmD2BA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__o1Wew_dEfCJEe7SJmD2BA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o1WfA_dEfCJEe7SJmD2BA" x="320" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="__omF4g_dEfCJEe7SJmD2BA"/>
+        <edges xmi:type="notation:Edge" xmi:id="__o19gA_dEfCJEe7SJmD2BA" type="4001" element="__on7EA_dEfCJEe7SJmD2BA" source="__o1WdQ_dEfCJEe7SJmD2BA" target="__o1WcA_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="__o19hA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19hQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o19hg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19hw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o19iA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19iQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__o19gQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__o19gg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__o19gw_dEfCJEe7SJmD2BA" points="[0, 0, -60, 0]$[60, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__o19ig_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__o19iw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__o19jA_dEfCJEe7SJmD2BA" type="4001" element="__on7FQ_dEfCJEe7SJmD2BA" source="__o1WcA_dEfCJEe7SJmD2BA" target="__o1Weg_dEfCJEe7SJmD2BA">
+          <children xmi:type="notation:Node" xmi:id="__o19kA_dEfCJEe7SJmD2BA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19kQ_dEfCJEe7SJmD2BA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o19kg_dEfCJEe7SJmD2BA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19kw_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__o19lA_dEfCJEe7SJmD2BA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__o19lQ_dEfCJEe7SJmD2BA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__o19jQ_dEfCJEe7SJmD2BA" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__o19jg_dEfCJEe7SJmD2BA" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__o19jw_dEfCJEe7SJmD2BA" points="[0, 0, -60, 0]$[60, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__o19lg_dEfCJEe7SJmD2BA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__o19lw_dEfCJEe7SJmD2BA" id="(0.0,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__o0vYA_dEfCJEe7SJmD2BA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="__o0vYQ_dEfCJEe7SJmD2BA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__oms8A_dEfCJEe7SJmD2BA" name="Sense Press" outgoingEdges="__on7FQ_dEfCJEe7SJmD2BA" incomingEdges="__on7EA_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#ffbcec4e-a756-42f7-af14-e8089f4fcc51"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#ffbcec4e-a756-42f7-af14-e8089f4fcc51"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#dcfb3bb2-1813-47bc-ad9f-6164f89ee427"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__onUAA_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__onUAg_dEfCJEe7SJmD2BA" name="Transfer Heat" outgoingEdges="__on7EA_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#32d3558a-681c-49ec-bc89-7844ea93e021"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#32d3558a-681c-49ec-bc89-7844ea93e021"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#0d7ac630-facc-452a-996e-f267dde4943a"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__onUAw_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__onUBQ_dEfCJEe7SJmD2BA" name="Deliver control" incomingEdges="__on7FQ_dEfCJEe7SJmD2BA" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#d5bca8d4-8ac5-4ec0-abf3-1672a4f45494"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="EV%20Thermal%20System.capella#d5bca8d4-8ac5-4ec0-abf3-1672a4f45494"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="EV%20Thermal%20System.capella#17c22a0f-6656-401c-a251-325486de7906"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__onUBg_dEfCJEe7SJmD2BA" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__on7EA_dEfCJEe7SJmD2BA" name="Water Pressure" sourceNode="__onUAg_dEfCJEe7SJmD2BA" targetNode="__oms8A_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#0d7a5dd1-7837-4df3-9e44-95710ba08208"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#0d7a5dd1-7837-4df3-9e44-95710ba08208"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#753fcdcc-b323-48a3-8799-9ff87d34a971"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__on7EQ_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__on7Eg_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__on7FQ_dEfCJEe7SJmD2BA" name="Press" sourceNode="__oms8A_dEfCJEe7SJmD2BA" targetNode="__onUBQ_dEfCJEe7SJmD2BA">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#2b64279f-54f7-486f-954c-689896777219"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="EV%20Thermal%20System.capella#2b64279f-54f7-486f-954c-689896777219"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="EV%20Thermal%20System.capella#4ebcd8e1-5a88-4511-a804-e8e0ddff5301"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__on7Fg_dEfCJEe7SJmD2BA" routingStyle="manhattan" strokeColor="9,92,46">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__on7Fw_dEfCJEe7SJmD2BA" labelColor="9,92,46"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@filters[name='hide.association.links.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__okQsA_dEfCJEe7SJmD2BA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
+    <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="EV%20Thermal%20System.capella#f4a4d577-a07c-4852-bd99-5cd538af9dbc"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
