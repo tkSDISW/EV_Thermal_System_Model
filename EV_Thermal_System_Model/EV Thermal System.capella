@@ -2052,33 +2052,56 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="9707f21f-fc45-4ef3-82ae-17a3adac36e5" name="Control Motor">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="ecc19322-6a26-4b6d-b246-dea5ac332535" name="FIP 1">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="b942a327-1e28-4e1b-90a2-8d36342dd479" targetElement="#b8996f3c-c99c-45dd-8439-47160cc202ed"
-                  sourceElement="#ecc19322-6a26-4b6d-b246-dea5ac332535"/>
-            </inputs>
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="7378706c-7a82-4ec9-af67-02730e38ea69" name="FIP 2">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="f0d18164-a464-41b7-8317-281fcf76b7fa" targetElement="#2db1a178-08db-4c3f-8dd1-dccdd7883ed7"
-                  sourceElement="#7378706c-7a82-4ec9-af67-02730e38ea69"/>
-            </inputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="98a65ace-fda2-48dc-a07d-3408c7a158ea" name="FOP 1">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="bc8e83c3-a4b3-4a6e-a7ca-348ef963d726" targetElement="#7272c7ed-8680-4c96-8f3b-24e2c7d9f467"
-                  sourceElement="#98a65ace-fda2-48dc-a07d-3408c7a158ea"/>
-            </outputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="31500d3b-2e43-4a27-873b-008c26aa69db" name="FOP 2">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="51302f25-b3c5-4d54-ba78-af69463579af" targetElement="#8a78d1ec-4df1-4885-9312-3265f097524e"
-                  sourceElement="#31500d3b-2e43-4a27-873b-008c26aa69db"/>
-            </outputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                id="120db22e-d5bd-455c-9871-e62c6ec08eb8" name="Sense Temp">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="ecc19322-6a26-4b6d-b246-dea5ac332535" name="FIP 1">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="b942a327-1e28-4e1b-90a2-8d36342dd479" targetElement="#b8996f3c-c99c-45dd-8439-47160cc202ed"
+                    sourceElement="#ecc19322-6a26-4b6d-b246-dea5ac332535"/>
+              </inputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="050f8bb5-ca4a-4c76-8ceb-723b7dafaf2c" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                id="dcfb3bb2-1813-47bc-ad9f-6164f89ee427" name="Sense Press">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="7378706c-7a82-4ec9-af67-02730e38ea69" name="FIP 2">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="f0d18164-a464-41b7-8317-281fcf76b7fa" targetElement="#2db1a178-08db-4c3f-8dd1-dccdd7883ed7"
+                    sourceElement="#7378706c-7a82-4ec9-af67-02730e38ea69"/>
+              </inputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="9ce005c0-edad-4c72-8266-8ca8ccf5daf0" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                id="17c22a0f-6656-401c-a251-325486de7906" name="Deliver control">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="2f1ce0ea-e818-44e8-ad68-2a00c28ad28a" name="FIP 1"/>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="bc8339a2-bda2-440f-8956-435e471409e6" name="FIP 2"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="31500d3b-2e43-4a27-873b-008c26aa69db" name="FOP 2">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="51302f25-b3c5-4d54-ba78-af69463579af" targetElement="#8a78d1ec-4df1-4885-9312-3265f097524e"
+                    sourceElement="#31500d3b-2e43-4a27-873b-008c26aa69db"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="98a65ace-fda2-48dc-a07d-3408c7a158ea" name="FOP 1">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="bc8e83c3-a4b3-4a6e-a7ca-348ef963d726" targetElement="#7272c7ed-8680-4c96-8f3b-24e2c7d9f467"
+                    sourceElement="#98a65ace-fda2-48dc-a07d-3408c7a158ea"/>
+              </outputs>
+            </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="f7b59994-9e74-4c3f-8316-c8f5eedc3c1d" targetElement="#fb883836-eb67-47b4-9e73-496ad95a05a4"
                 sourceElement="#9707f21f-fc45-4ef3-82ae-17a3adac36e5"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="ed256354-472f-49fd-83cd-0586b3774a83" name="Temp" target="#2f1ce0ea-e818-44e8-ad68-2a00c28ad28a"
+                source="#050f8bb5-ca4a-4c76-8ceb-723b7dafaf2c"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="4ebcd8e1-5a88-4511-a804-e8e0ddff5301" name="Press" target="#bc8339a2-bda2-440f-8956-435e471409e6"
+                source="#9ce005c0-edad-4c72-8266-8ca8ccf5daf0"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="0d7ac630-facc-452a-996e-f267dde4943a" name="Transfer Heat">
@@ -2888,7 +2911,7 @@
                 sourceElement="#0ca83968-4428-449a-8a57-7a00e1b47dd3"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="eada2a9c-840d-42d7-9e6c-073afcf3550b" name="HC to C" appliedPropertyValueGroups="#faec1dfe-d7b6-4857-a8a3-0edd406b884d"
+              id="eada2a9c-840d-42d7-9e6c-073afcf3550b" name="HC to C T" appliedPropertyValueGroups="#faec1dfe-d7b6-4857-a8a3-0edd406b884d"
               source="#ebde9b4d-219f-403a-be60-7cfbc9da840c" target="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"
               kind="FLOW">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
@@ -2912,7 +2935,7 @@
                 sourceElement="#eada2a9c-840d-42d7-9e6c-073afcf3550b"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="2356539f-9c18-43a4-93b3-ca18df5c15ef" name="HC to C" source="#0016405a-600a-4a1c-b1e6-0e08f7d4ac9c"
+              id="2356539f-9c18-43a4-93b3-ca18df5c15ef" name="HC to C P" source="#0016405a-600a-4a1c-b1e6-0e08f7d4ac9c"
               target="#0a81342e-61c3-4b0b-bd4f-b088d80bf850" kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="48b28afe-b57e-4c7a-bfd8-7452fecb54aa" targetElement="#753fcdcc-b323-48a3-8799-9ff87d34a971"
@@ -2945,7 +2968,11 @@
                 location="#2dbf290d-87b2-420e-ae9b-4f9d0a73a2c5"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b51695d8-a13b-437a-a634-2e8e63856da2"
-              name="Temp Sensor" abstractType="#af28d8e2-317a-48d6-ace0-615860ea557a"/>
+              name="Temp Sensor" abstractType="#af28d8e2-317a-48d6-ace0-615860ea557a">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="7a7751ed-0376-444c-b11c-8bbec36e7790" deployedElement="#c4052b24-305e-4e04-a87e-e8a0c631e948"
+                location="#b51695d8-a13b-437a-a634-2e8e63856da2"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="03a99667-fce2-46dc-9dd8-459dc0d7f080"
               name="Battery pack" abstractType="#fcaaa05c-5e3e-462d-a04e-8fc3982110d8">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
@@ -2971,7 +2998,11 @@
                 location="#62ab58b3-4095-46be-9571-9b5350f2f437"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="91535192-6544-47fe-ad22-302bac007887"
-              name="Pressure Sensor" abstractType="#48f2d5e7-dfcc-45c7-bee2-a40105995dcb"/>
+              name="Pressure Sensor" abstractType="#48f2d5e7-dfcc-45c7-bee2-a40105995dcb">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="769e9564-d4c4-48ab-919e-021f1f92231e" deployedElement="#f6b82139-0fc1-4f4a-8802-fc8b9784b297"
+                location="#91535192-6544-47fe-ad22-302bac007887"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5b517d04-addf-4c32-9b08-57f97e94c370"
               name="Chassis" abstractType="#d56a22c7-e732-45c4-bde4-61c1c86a4981">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
@@ -2981,7 +3012,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"
               name="Controller" abstractType="#6de8892e-695b-4e2c-b655-6aea3d30a135">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="8308278d-3da1-49c2-856b-249fe31bdf95" deployedElement="#45cb3d4a-9523-4418-834e-cb87523d6da1"
+                id="9e2a997b-55b3-4051-a99c-7023f1dcf33d" deployedElement="#81208993-6b88-4998-8983-8b53287a2ad2"
                 location="#f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7ee18809-85fc-47f3-b7d7-2e19ae9b31b3"
@@ -2992,53 +3023,44 @@
               id="ea673b4d-b5bb-41ec-ad8b-7ab237fdf8a4" targetElement="#a2da5b5b-7409-40b6-bf87-5ff510c4a96d"
               sourceElement="#f1765dc6-f903-49e6-a8d5-eb6680e37b24"/>
           <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath"
-              id="d2be7219-10ee-4b8c-86e7-34b2efc5009c" name="Temp Sensor Path">
+              id="3754e8f3-4ef8-4cb6-a8db-ca2bdea6a260" name="Cont Temp">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
-                id="e8791d19-5c83-47e8-8d52-377a8aa3c648" targetElement="#eada2a9c-840d-42d7-9e6c-073afcf3550b"
-                sourceElement="#d2be7219-10ee-4b8c-86e7-34b2efc5009c"/>
+                id="2cda753a-fecd-4864-80be-efa8321ddefa" targetElement="#1e6c2824-ed1d-45de-95ae-c13f748a6ffb"
+                sourceElement="#3754e8f3-4ef8-4cb6-a8db-ca2bdea6a260"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="a3d9be01-18e6-49a2-a9f2-fdd1aa3b2ba3" involved="#2dbf290d-87b2-420e-ae9b-4f9d0a73a2c5"
-                nextInvolvements="#9e3f3840-e75c-447b-bb51-54ce7bdb0763"/>
+                id="89c7e80c-e614-4ab5-b3d6-6e00181589fb" involved="#b51695d8-a13b-437a-a634-2e8e63856da2"
+                nextInvolvements="#6905ea5d-4ec8-4fa0-8126-dab720ac54d8"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="9e3f3840-e75c-447b-bb51-54ce7bdb0763" involved="#d1a47698-d6ec-45ba-8fa0-c9f439739e55"
-                nextInvolvements="#487f02a6-8236-4406-b1d5-a65210ec8b9b"/>
+                id="6905ea5d-4ec8-4fa0-8126-dab720ac54d8" involved="#c3c23d0e-4e77-4928-8a53-59f13950c7c2"
+                nextInvolvements="#978851fb-a7e9-4df5-afbb-ce83303438fb"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="487f02a6-8236-4406-b1d5-a65210ec8b9b" involved="#b51695d8-a13b-437a-a634-2e8e63856da2"
-                nextInvolvements="#71ffedf1-c70b-40ed-8c95-f250388b17fc"/>
+                id="978851fb-a7e9-4df5-afbb-ce83303438fb" involved="#7ee18809-85fc-47f3-b7d7-2e19ae9b31b3"
+                nextInvolvements="#4607f776-f5a0-4eeb-b855-0b742f73850c"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="71ffedf1-c70b-40ed-8c95-f250388b17fc" involved="#c3c23d0e-4e77-4928-8a53-59f13950c7c2"
-                nextInvolvements="#77187781-ac0f-4384-8b5d-a0458032a84d"/>
+                id="4607f776-f5a0-4eeb-b855-0b742f73850c" involved="#e5acb703-0b4b-41c5-b0fe-b1705edc2205"
+                nextInvolvements="#8172850f-17a1-416a-aec4-878619570cd0"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="77187781-ac0f-4384-8b5d-a0458032a84d" involved="#7ee18809-85fc-47f3-b7d7-2e19ae9b31b3"
-                nextInvolvements="#5b87c79d-c1e1-4932-9ff3-c6457e6afb88"/>
-            <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="5b87c79d-c1e1-4932-9ff3-c6457e6afb88" involved="#e5acb703-0b4b-41c5-b0fe-b1705edc2205"
-                nextInvolvements="#ee244abb-b05b-4116-ba7b-9bdf2dd1e56c"/>
-            <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="ee244abb-b05b-4116-ba7b-9bdf2dd1e56c" involved="#f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"/>
+                id="8172850f-17a1-416a-aec4-878619570cd0" involved="#f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"/>
           </ownedPhysicalPath>
           <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath"
-              id="46699bec-dc48-42fe-93f7-60fc059feeff" name="Press Sensor Path">
+              id="c2e39105-fa27-479e-ba8e-e32ac7733430" name="Cont Press">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="509807a3-e5c4-4a43-8f4b-3fc371227383" targetElement="#b7587ccc-d726-4598-bbec-7dc157786825"
+                sourceElement="#c2e39105-fa27-479e-ba8e-e32ac7733430"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="aa94644b-9064-495b-95ce-a9cd588e0c14" involved="#2dbf290d-87b2-420e-ae9b-4f9d0a73a2c5"
-                nextInvolvements="#e1aab844-d1f3-4a74-9c36-697587fe1c2b"/>
+                id="2237f639-99d5-4eba-ae09-33977e85984d" involved="#91535192-6544-47fe-ad22-302bac007887"
+                nextInvolvements="#63ddbf00-4cf2-4862-86c3-73db314e886e"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="e1aab844-d1f3-4a74-9c36-697587fe1c2b" involved="#1d6a68af-0e06-4028-96c4-98c702095ec5"
-                nextInvolvements="#424ec547-2f1d-449c-a99b-512ef8b5bb30"/>
+                id="63ddbf00-4cf2-4862-86c3-73db314e886e" involved="#d88523ed-b8db-4215-bb44-a1059dc2b350"
+                nextInvolvements="#b6f3b8fd-e6e8-4aa0-b30c-a4a3f07319ce"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="424ec547-2f1d-449c-a99b-512ef8b5bb30" involved="#91535192-6544-47fe-ad22-302bac007887"
-                nextInvolvements="#4f91c921-4a9d-4edb-8b96-1f22d16aadb3"/>
+                id="b6f3b8fd-e6e8-4aa0-b30c-a4a3f07319ce" involved="#7ee18809-85fc-47f3-b7d7-2e19ae9b31b3"
+                nextInvolvements="#cad28dea-bfef-4290-9fe7-4e1bc3942655"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="4f91c921-4a9d-4edb-8b96-1f22d16aadb3" involved="#d88523ed-b8db-4215-bb44-a1059dc2b350"
-                nextInvolvements="#a1665215-e226-47e8-9be9-c88b6b757bc5"/>
+                id="cad28dea-bfef-4290-9fe7-4e1bc3942655" involved="#e5acb703-0b4b-41c5-b0fe-b1705edc2205"
+                nextInvolvements="#cc83a65a-d5ce-41eb-adcd-73b41f4bde73"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="a1665215-e226-47e8-9be9-c88b6b757bc5" involved="#7ee18809-85fc-47f3-b7d7-2e19ae9b31b3"
-                nextInvolvements="#9cbbcc15-ef91-4463-9332-bd3ac8efaea5"/>
-            <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="9cbbcc15-ef91-4463-9332-bd3ac8efaea5" involved="#e5acb703-0b4b-41c5-b0fe-b1705edc2205"
-                nextInvolvements="#bce50001-dc0d-4689-9e0c-7ea5bfcd68c7"/>
-            <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-                id="bce50001-dc0d-4689-9e0c-7ea5bfcd68c7" involved="#f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"/>
+                id="cc83a65a-d5ce-41eb-adcd-73b41f4bde73" involved="#f9ea0a4c-a06f-4bb0-8de1-cdd93bb87cf9"/>
           </ownedPhysicalPath>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="90c491dd-3099-481d-985d-ff6f5cbbe66b" name="M" linkEnds="#3420e0c9-f1ab-403f-add5-244b50abdf96 #3cd93038-2f4b-4fc4-9645-0f0bfc1fd569">
@@ -3053,7 +3075,11 @@
                 sourceElement="#7457e126-f81d-4534-826e-0a5e96b7febc"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="d1a47698-d6ec-45ba-8fa0-c9f439739e55" name="M-4" linkEnds="#1f66e57e-2152-45b7-90a5-6d10d0abcc7d #581a6334-7888-4175-a8bd-3f9960216206"/>
+              id="d1a47698-d6ec-45ba-8fa0-c9f439739e55" name="M-4" linkEnds="#1f66e57e-2152-45b7-90a5-6d10d0abcc7d #581a6334-7888-4175-a8bd-3f9960216206">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="fa0552bd-642a-40e5-8088-219894a4b3ed" targetElement="#eada2a9c-840d-42d7-9e6c-073afcf3550b"
+                sourceElement="#d1a47698-d6ec-45ba-8fa0-c9f439739e55"/>
+          </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="aa5d854f-2174-44b2-93ca-6d8720559a64" name="Hose" linkEnds="#3371c4c5-981f-4eb5-b96c-96f970e37290 #cb1d18c4-5a25-48f9-9204-976602e86a88">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
@@ -3079,7 +3105,11 @@
                 sourceElement="#4d837786-d336-46f3-bccb-8b74129f5577"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="1d6a68af-0e06-4028-96c4-98c702095ec5" name="M-5" linkEnds="#43daabfc-1858-444c-9c8e-1af0ce3bf3b2 #2b10f2cb-0bbf-4414-ab7d-b08c53301e64"/>
+              id="1d6a68af-0e06-4028-96c4-98c702095ec5" name="M-5" linkEnds="#43daabfc-1858-444c-9c8e-1af0ce3bf3b2 #2b10f2cb-0bbf-4414-ab7d-b08c53301e64">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="64782ac1-fc2f-4bf3-975e-1468e6932410" targetElement="#2356539f-9c18-43a4-93b3-ca18df5c15ef"
+                sourceElement="#1d6a68af-0e06-4028-96c4-98c702095ec5"/>
+          </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="f1d519e9-79f8-4c0e-bfbd-80b291324303" name="M-3" linkEnds="#da640d9f-94d0-40a5-b10b-dc19aa27232d #711493c9-d1bc-40fe-8f3a-c1aefa484c2f">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
@@ -3679,7 +3709,7 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="1f66e57e-2152-45b7-90a5-6d10d0abcc7d" name="PP 3">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                  id="46b62230-7f82-47a7-ae8c-25edaa9c38e2" targetElement="#ebde9b4d-219f-403a-be60-7cfbc9da840c"
+                  id="59811b14-a705-4500-92a4-659c4d90b24d" targetElement="#ebde9b4d-219f-403a-be60-7cfbc9da840c"
                   sourceElement="#1f66e57e-2152-45b7-90a5-6d10d0abcc7d"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -3689,7 +3719,11 @@
                   sourceElement="#3371c4c5-981f-4eb5-b96c-96f970e37290"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="2b10f2cb-0bbf-4414-ab7d-b08c53301e64" name="PP 5"/>
+                id="2b10f2cb-0bbf-4414-ab7d-b08c53301e64" name="PP 5">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="a099e68d-3273-4434-8ebe-4d3ef311e074" targetElement="#0016405a-600a-4a1c-b1e6-0e08f7d4ac9c"
+                  sourceElement="#2b10f2cb-0bbf-4414-ab7d-b08c53301e64"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="da640d9f-94d0-40a5-b10b-dc19aa27232d" name="PP 6">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
@@ -3701,9 +3735,17 @@
               id="af28d8e2-317a-48d6-ace0-615860ea557a" description="&lt;table>&#xA;&#x9;&lt;thead data-end=&quot;247&quot; data-start=&quot;132&quot;>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;247&quot; data-start=&quot;132&quot;>&#xA;&#x9;&#x9;&#x9;&lt;th data-end=&quot;164&quot; data-start=&quot;132&quot;>&lt;strong data-end=&quot;147&quot; data-start=&quot;134&quot;>Attribute&lt;/strong>&lt;/th>&#xA;&#x9;&#x9;&#x9;&lt;th data-end=&quot;247&quot; data-start=&quot;164&quot;>&lt;strong data-end=&quot;181&quot; data-start=&quot;166&quot;>Description&lt;/strong>&lt;/th>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/thead>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;476&quot; data-start=&quot;363&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;380&quot; data-start=&quot;365&quot;>Sensor Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Thermistor (NTC/PTC), RTD, or Semiconductor&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;593&quot; data-start=&quot;477&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;510&quot; data-start=&quot;479&quot;>Operating Temperature Range&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>-40&amp;deg;C to +150&amp;deg;C (or higher for specific applications)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;707&quot; data-start=&quot;594&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;608&quot; data-start=&quot;596&quot;>Accuracy&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>&amp;plusmn;1&amp;deg;C or better, depending on sensor type and range&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;821&quot; data-start=&quot;708&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;727&quot; data-start=&quot;710&quot;>Response Time&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Typically &amp;lt; 5 seconds (depends on encapsulation and location)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;935&quot; data-start=&quot;822&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;841&quot; data-start=&quot;824&quot;>Output Signal&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Analog Voltage, Resistance, Digital (e.g., PWM, I2C, CAN)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1050&quot; data-start=&quot;936&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;956&quot; data-start=&quot;938&quot;>Supply Voltage&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>3.3V, 5V, or 12V depending on sensor and interface requirements&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1164&quot; data-start=&quot;1051&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1071&quot; data-start=&quot;1053&quot;>Connector Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Automotive-grade (e.g., Delphi, Bosch, AMP)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1278&quot; data-start=&quot;1165&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1195&quot; data-start=&quot;1167&quot;>Environmental Protection&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>IP67 or higher (dust and water ingress)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1392&quot; data-start=&quot;1279&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1305&quot; data-start=&quot;1281&quot;>Vibration Resistance&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Must meet automotive standards (e.g., ISO 16750)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1506&quot; data-start=&quot;1393&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1412&quot; data-start=&quot;1395&quot;>Mounting Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Threaded, Clip-in, Surface-mount, or Integrated into housing&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1620&quot; data-start=&quot;1507&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1535&quot; data-start=&quot;1509&quot;>Material Compatibility&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Resistant to automotive fluids (oil, coolant, fuel)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1734&quot; data-start=&quot;1621&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1638&quot; data-start=&quot;1623&quot;>Calibration&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Factory-calibrated or field-calibrated&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1848&quot; data-start=&quot;1735&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1762&quot; data-start=&quot;1737&quot;>Diagnostic Capability&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Supports short/open detection, fault codes (via ECU)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1962&quot; data-start=&quot;1849&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1876&quot; data-start=&quot;1851&quot;>Lifetime / Durability&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Designed for 10+ years or 100,000+ miles operation&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2076&quot; data-start=&quot;1963&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1991&quot; data-start=&quot;1965&quot;>Communication Protocol&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>If digital: I2C, SPI, or CAN (if part of a smart sensor system)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2194&quot; data-start=&quot;2077&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;2095&quot; data-start=&quot;2079&quot;>Package Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Encapsulated in plastic, stainless steel, or ceramic with automotive-grade potting&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;"
               name="Temp Sensor" kind="HARDWARE" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="581a6334-7888-4175-a8bd-3f9960216206" name="PP 1"/>
+                id="581a6334-7888-4175-a8bd-3f9960216206" name="PP 1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="6cb132ff-dcf8-40d0-9a2a-fdd78418c109" targetElement="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"
+                  sourceElement="#581a6334-7888-4175-a8bd-3f9960216206"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="3d9f7a7a-706c-4694-a6c6-b328c184ea69" name="PP 2"/>
+                id="3d9f7a7a-706c-4694-a6c6-b328c184ea69" name="PP 2">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="b377a1e8-ac1b-44b4-8665-97861c597dc4" targetElement="#a7da080e-3eae-49a3-9b14-537d7280f3a8"
+                  sourceElement="#3d9f7a7a-706c-4694-a6c6-b328c184ea69"/>
+            </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="fcaaa05c-5e3e-462d-a04e-8fc3982110d8" name="Battery pack" nature="NODE">
@@ -3799,9 +3841,17 @@
               id="48f2d5e7-dfcc-45c7-bee2-a40105995dcb" description="&lt;table>&#xA;&#x9;&lt;thead data-end=&quot;224&quot; data-start=&quot;109&quot;>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;224&quot; data-start=&quot;109&quot;>&#xA;&#x9;&#x9;&#x9;&lt;th data-end=&quot;141&quot; data-start=&quot;109&quot;>&lt;strong data-end=&quot;124&quot; data-start=&quot;111&quot;>Attribute&lt;/strong>&lt;/th>&#xA;&#x9;&#x9;&#x9;&lt;th data-end=&quot;224&quot; data-start=&quot;141&quot;>&lt;strong data-end=&quot;158&quot; data-start=&quot;143&quot;>Description&lt;/strong>&lt;/th>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/thead>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;453&quot; data-start=&quot;340&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;357&quot; data-start=&quot;342&quot;>Sensor Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Piezoelectric, Piezoresistive, Capacitive, or MEMS&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;566&quot; data-start=&quot;454&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;474&quot; data-start=&quot;456&quot;>Pressure Range&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Varies by application: e.g., 0&amp;ndash;5 bar (intake), up to 2000 bar (fuel rail)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;681&quot; data-start=&quot;567&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;586&quot; data-start=&quot;569&quot;>Pressure Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Absolute, Gauge, Differential&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;795&quot; data-start=&quot;682&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;701&quot; data-start=&quot;684&quot;>Output Signal&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Analog Voltage (e.g., 0.5&amp;ndash;4.5V), Current (e.g., 4&amp;ndash;20mA), or Digital (e.g., CAN)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;909&quot; data-start=&quot;796&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;829&quot; data-start=&quot;798&quot;>Operating Temperature Range&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>-40&amp;deg;C to +150&amp;deg;C (typical for under-hood environment)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1023&quot; data-start=&quot;910&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;924&quot; data-start=&quot;912&quot;>Accuracy&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>&amp;plusmn;1% Full Scale Output (FSO) or better&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1137&quot; data-start=&quot;1024&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1043&quot; data-start=&quot;1026&quot;>Response Time&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>&amp;lt; 2 ms typical&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1251&quot; data-start=&quot;1138&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1158&quot; data-start=&quot;1140&quot;>Supply Voltage&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>5V or 12V (depends on system and interface)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1365&quot; data-start=&quot;1252&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1272&quot; data-start=&quot;1254&quot;>Connector Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Automotive-grade sealed connectors (e.g., Bosch EV1, AMP)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1479&quot; data-start=&quot;1366&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1396&quot; data-start=&quot;1368&quot;>Environmental Protection&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>IP67 or IP69K (resistant to dust, water, and high-pressure spray)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1593&quot; data-start=&quot;1480&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1499&quot; data-start=&quot;1482&quot;>Mounting Type&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Threaded (e.g., M10x1, 1/8&amp;rdquo;-27 NPT), Flanged, or Integrated&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1707&quot; data-start=&quot;1594&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1619&quot; data-start=&quot;1596&quot;>Media Compatibility&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Oil, Fuel, Coolant, Air &amp;mdash; sensor must be chemically compatible with medium&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1821&quot; data-start=&quot;1708&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1737&quot; data-start=&quot;1710&quot;>Overpressure Protection&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Designed to tolerate over-range pressure (e.g., 2x rated pressure)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;1935&quot; data-start=&quot;1822&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1849&quot; data-start=&quot;1824&quot;>Diagnostic Capability&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Open/short detection, supports fault signaling via ECU&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2049&quot; data-start=&quot;1936&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;1962&quot; data-start=&quot;1938&quot;>Vibration Resistance&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Meets ISO 16750 or similar automotive standards&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2163&quot; data-start=&quot;2050&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;2071&quot; data-start=&quot;2052&quot;>Drift Over Time&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>&amp;lt; &amp;plusmn;0.5% FSO over 10 years typical&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2276&quot; data-start=&quot;2164&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;2192&quot; data-start=&quot;2166&quot;>Communication Protocol&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Analog, SENT (Single Edge Nibble Transmission), CAN (for smart sensors)&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2390&quot; data-start=&quot;2277&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;2299&quot; data-start=&quot;2279&quot;>Package Material&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Stainless steel, ceramics, high-temp plastics, with automotive-grade sealing&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;&#xA;&lt;table>&#xA;&#x9;&lt;tbody>&#xA;&#x9;&#x9;&lt;tr data-end=&quot;2503&quot; data-start=&quot;2391&quot;>&#xA;&#x9;&#x9;&#x9;&lt;td>&lt;strong data-end=&quot;2408&quot; data-start=&quot;2393&quot;>Calibration&lt;/strong>&lt;/td>&#xA;&#x9;&#x9;&#x9;&lt;td>Factory-calibrated with unique ID and traceability&lt;/td>&#xA;&#x9;&#x9;&lt;/tr>&#xA;&#x9;&lt;/tbody>&#xA;&lt;/table>&#xA;"
               name="Pressure Sensor" kind="HARDWARE" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="43daabfc-1858-444c-9c8e-1af0ce3bf3b2" name="PP 1"/>
+                id="43daabfc-1858-444c-9c8e-1af0ce3bf3b2" name="PP 1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="fbac09b9-559f-4da7-8fc4-b8d0a327b204" targetElement="#0a81342e-61c3-4b0b-bd4f-b088d80bf850"
+                  sourceElement="#43daabfc-1858-444c-9c8e-1af0ce3bf3b2"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="03eba796-7bbc-4fcd-a5db-8813f66637f9" name="PP 2"/>
+                id="03eba796-7bbc-4fcd-a5db-8813f66637f9" name="PP 2">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="496b6fea-a966-4ab0-b45f-417601268731" targetElement="#763eb2c1-a0e6-4418-aabb-b69f033a98f3"
+                  sourceElement="#03eba796-7bbc-4fcd-a5db-8813f66637f9"/>
+            </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="d56a22c7-e732-45c4-bde4-61c1c86a4981" name="Chassis" nature="NODE">
@@ -3829,7 +3879,10 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="191120d4-2fff-4e06-9395-525f6f037c7b" name="PP 1">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                  id="b3548487-e291-4566-aebe-6eca9580331b" targetElement="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"
+                  id="45e01667-d884-4e70-b00e-27a7a5563280" targetElement="#fa54b717-b56a-4282-bcec-e46c2be77025"
+                  sourceElement="#191120d4-2fff-4e06-9395-525f6f037c7b"/>
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="df2b7523-1cf5-4e45-af8b-a42e977cd9d5" targetElement="#a21036bd-91e1-4980-8eff-072fae1d8f6a"
                   sourceElement="#191120d4-2fff-4e06-9395-525f6f037c7b"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -3870,58 +3923,75 @@
                   id="92e32603-9b3f-4545-8ba7-4869f73f6799" targetElement="#0bdaba86-ce73-403d-ae72-07793d95cfc2"
                   sourceElement="#e7d560d7-aeae-4ec8-9ec4-f06caa86c636"/>
             </ownedPropertyValueGroups>
-            <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                id="f4c4cec3-0ff9-4c6a-99ff-9a8a3e4cea68" targetElement="#919695b5-e2fd-44bb-8f37-312bc1e9b52d"
-                sourceElement="#073ba8d0-34d7-4f37-b0a4-0a976bccfc67"/>
-            <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                id="54cca468-8818-4a60-a320-d2d7d1d39b15" targetElement="#a121924d-f35e-46bf-baf8-5beb04a70fae"
-                sourceElement="#5adbef3b-f645-47f5-8c9f-5a3949426c4a"/>
-            <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                id="374764dd-d709-434a-a2de-ca66e038d248" targetElement="#f72536ef-331a-4113-a11c-06b834aa4531"
-                sourceElement="#4ec5cd6d-7e2a-4a1d-b6a9-a1380abec457"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="073ba8d0-34d7-4f37-b0a4-0a976bccfc67" targetElement="#9707f21f-fc45-4ef3-82ae-17a3adac36e5"
-                sourceElement="#4f91193f-2287-4d8a-8cee-39c62037cc5b"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="3c86dde2-f9f1-49ae-85c0-f796d4b105e7" name="CP 1" orientation="OUT"
-                kind="FLOW">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="97963d1e-793f-4e93-a0dc-c9f03d567aa6" targetElement="#bc5b8a37-0bc9-428c-af8a-59e7a43c0a10"
-                  sourceElement="#3c86dde2-f9f1-49ae-85c0-f796d4b105e7"/>
-              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                  id="5adbef3b-f645-47f5-8c9f-5a3949426c4a" targetElement="#98a65ace-fda2-48dc-a07d-3408c7a158ea"
-                  sourceElement="#3c86dde2-f9f1-49ae-85c0-f796d4b105e7"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="7be55259-361f-4e87-ad9f-b248d9e90b61" name="CP 2" orientation="OUT"
-                kind="FLOW">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="2faf6f2b-8a9b-4d76-aa34-31c6abea3301" targetElement="#5c640dac-d5d5-421a-8c1e-9b4eff2623da"
-                  sourceElement="#7be55259-361f-4e87-ad9f-b248d9e90b61"/>
-              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                  id="4ec5cd6d-7e2a-4a1d-b6a9-a1380abec457" targetElement="#31500d3b-2e43-4a27-873b-008c26aa69db"
-                  sourceElement="#7be55259-361f-4e87-ad9f-b248d9e90b61"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="7ad20bae-ca1a-49db-b6e4-5732c2f8654d" name="CP 3" orientation="IN"
-                kind="FLOW">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="62e8aa0c-ca74-4252-a6f2-7fd964881041" targetElement="#afe7fc3a-8082-43f1-9a37-3cdfb46b44f9"
-                  sourceElement="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"/>
-              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                  id="d0b73d98-29f5-4b21-9c92-bcf9192a1b59" targetElement="#ecc19322-6a26-4b6d-b246-dea5ac332535"
-                  sourceElement="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="0a81342e-61c3-4b0b-bd4f-b088d80bf850" name="CP 4" orientation="IN"
-                kind="FLOW">
-              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                  id="36ed48c9-f0a5-4f37-ab9e-130ca9df22eb" targetElement="#7378706c-7a82-4ec9-af67-02730e38ea69"
-                  sourceElement="#0a81342e-61c3-4b0b-bd4f-b088d80bf850"/>
-            </ownedFeatures>
+            <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+                id="1e6c2824-ed1d-45de-95ae-c13f748a6ffb" name="TS to CM" source="#a7da080e-3eae-49a3-9b14-537d7280f3a8"
+                target="#a21036bd-91e1-4980-8eff-072fae1d8f6a" kind="FLOW"/>
+            <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+                id="b7587ccc-d726-4598-bbec-7dc157786825" name="PS to CM" source="#763eb2c1-a0e6-4418-aabb-b69f033a98f3"
+                target="#fa54b717-b56a-4282-bcec-e46c2be77025" kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="81208993-6b88-4998-8983-8b53287a2ad2"
+                name="Control Modue" abstractType="#0a6b0bf1-5e68-4390-9ecf-3848d1298095"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f6b82139-0fc1-4f4a-8802-fc8b9784b297"
+                name="Pressure Sensor" abstractType="#c82002ad-25b1-4e87-bc3f-64c6354fffe8"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c4052b24-305e-4e04-a87e-e8a0c631e948"
+                name="Temp Sensor" abstractType="#f341e37c-33e0-4dfe-9e4a-8728bb0b6f0a"/>
             <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
                 id="417c32db-8604-4b31-8dcd-f971e67524da" targetElement="#f61e3412-d508-48e8-99f0-a3ffc535b947"
                 sourceElement="#4f91193f-2287-4d8a-8cee-39c62037cc5b"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="0a6b0bf1-5e68-4390-9ecf-3848d1298095" name="Control Modue" nature="BEHAVIOR">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="94ab1413-75e0-4b1a-ad95-26ec451dd6d8" targetElement="#17c22a0f-6656-401c-a251-325486de7906"
+                  sourceElement="#0a6b0bf1-5e68-4390-9ecf-3848d1298095"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="3c86dde2-f9f1-49ae-85c0-f796d4b105e7" name="CP 1" orientation="OUT"
+                  kind="FLOW">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="97963d1e-793f-4e93-a0dc-c9f03d567aa6" targetElement="#bc5b8a37-0bc9-428c-af8a-59e7a43c0a10"
+                    sourceElement="#3c86dde2-f9f1-49ae-85c0-f796d4b105e7"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="7be55259-361f-4e87-ad9f-b248d9e90b61" name="CP 2" orientation="OUT"
+                  kind="FLOW">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="2faf6f2b-8a9b-4d76-aa34-31c6abea3301" targetElement="#5c640dac-d5d5-421a-8c1e-9b4eff2623da"
+                    sourceElement="#7be55259-361f-4e87-ad9f-b248d9e90b61"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="a21036bd-91e1-4980-8eff-072fae1d8f6a" name="CP 3" orientation="IN"
+                  kind="FLOW"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="fa54b717-b56a-4282-bcec-e46c2be77025" name="CP 4" orientation="IN"
+                  kind="FLOW"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="c82002ad-25b1-4e87-bc3f-64c6354fffe8" name="Pressure Sensor" nature="BEHAVIOR">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="61053d3b-a01c-4651-ae9c-1afc2f177dcb" targetElement="#dcfb3bb2-1813-47bc-ad9f-6164f89ee427"
+                  sourceElement="#c82002ad-25b1-4e87-bc3f-64c6354fffe8"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="0a81342e-61c3-4b0b-bd4f-b088d80bf850" name="CP 4" orientation="IN"
+                  kind="FLOW"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="763eb2c1-a0e6-4418-aabb-b69f033a98f3" name="CP 2" orientation="OUT"
+                  kind="FLOW"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="f341e37c-33e0-4dfe-9e4a-8728bb0b6f0a" name="Temp Sensor" nature="BEHAVIOR">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="818e9540-39e1-4af6-9f5b-995f5d4db648" targetElement="#120db22e-d5bd-455c-9871-e62c6ec08eb8"
+                  sourceElement="#f341e37c-33e0-4dfe-9e4a-8728bb0b6f0a"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="7ad20bae-ca1a-49db-b6e4-5732c2f8654d" name="CP 3" orientation="IN"
+                  kind="FLOW">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="62e8aa0c-ca74-4252-a6f2-7fd964881041" targetElement="#afe7fc3a-8082-43f1-9a37-3cdfb46b44f9"
+                    sourceElement="#7ad20bae-ca1a-49db-b6e4-5732c2f8654d"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="a7da080e-3eae-49a3-9b14-537d7280f3a8" name="CP 2" orientation="OUT"
+                  kind="FLOW"/>
+            </ownedPhysicalComponents>
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
